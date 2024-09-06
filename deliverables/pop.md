@@ -1,6 +1,6 @@
 ﻿# Project Overview Proposal
-Unemployed Elves
-Mariia L. Sameer B. Gregory T. Dipesh J
+- Unemployed Elves
+- Mariia L. Sameer B. Gregory T. Dipesh J
 
 ## 1 Proposed Project Name
 Van Issue Documenting Website
