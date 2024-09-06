@@ -42,7 +42,7 @@ for client-side logic (form validaton, ui component state management etc)
 ### 4.2 Backend
 A server app using Spring Boot to deal with API requests, and to send and receive
 data from the database.
-##$ 4.3 Database
+### 4.3 Database
 MongoDB for storing users and issue data.
 
 
