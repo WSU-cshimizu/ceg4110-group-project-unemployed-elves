@@ -1,9 +1,9 @@
 ﻿# Project Overview Proposal
 - Team Name: Unemployed Elves
-- Members: Mariia L. Sameer B. Gregory T. Dipesh J
+- Members: Mariia L, Sameer B, Gregory T, Dipesh J
 
 ## 1 Proposed Project Name
-Van Issue Documenting Website
+Amazon Delivery Van Issue Documenting Website
 
 ## 2 Elevator Pitch
 We’re working on an upgrade to improve communication between Amazon drivers
