@@ -1,0 +1,57 @@
+Sameer, Greg, Mariia, Dipesh 
+
+Administrative
+
+* Meeting Locations:   
+  * Wright State University, Fawcett Room 242  
+  * Discord if meeting virtually  
+* Meeting Times:  
+  * 10-20 minutes at the end of class on Tuesday  
+  * Thursdays 11-12:20 when there is no guest lecture  
+  * Anytime virtually as needed Monday-Thursday.  
+* Communication Plan:  
+  * Discord for constant communication  
+  * Github for sharing software progress  
+* Project Management:  
+  * *Absences on online meeting:*  
+    We will inform everyone about the online meeting time at least 48 hours in advance. Make sure that everybody confirms attendance at least 24 hours before. If a person doesn’t come, they should briefly explain why. We will keep our meeting notes online, in Github, so they are available to everyone at all times. The person who missed the meeting should read the meeting minutes as soon as possible and ask any questions in Discord or at the next offline meeting (for example, the next day).  
+  * *Meeting Minutes:*
+
+    We will have one main person assigned  in a rotating cycle (e.g., Sameer \-\> Dipesh \-\> Mariia \-\> Greg \-\> Sameer) who will take all the necessary notes. Additionally, there will be a helper (also assigned for each meeting in the same cycle) who will take notes as backup to ensure nothing is missed.
+
+  * *Learning:*  
+    If a team member is unfamiliar with a tool or framework he/she should inform the group within 72 hours (sometimes it takes time to realize you cannot do something) after being assigned the task. If the person needs time to learn something, they should set how long it will take them. We should document this and reassign the deadline (adjust tasks).  
+  * *Work Tracker/ online stand-up*:
+
+    There should be an obligation to send a quick summary of what they’ve done and any current problems once every 48-72 hours during workdays. It can be done more frequently. 
+
+  * *Communication*:  
+    We set a team communication policy, such as responding to messages in a set time frame (24 hours, Monday \- Friday). It’s recommended to install Discord on your phone to get message notifications. If someone is unresponsive or does not complete the task at all, after 24 hours one of us can send them a message via email to make sure everything is okay. If the person is not available for more than two weeks, we will inform the teacher/TA about it.  
+  * *Code merge/conflict resolving, code review:*
+
+    Before starting work every day, we should pull changes from the develop branch. We will work with the GitFlow branching model. Every 2 weeks, we will assign a new person for code review/merge conflict resolution. Merging changes daily or every few days (at least once every 72 hours) helps ensure that conflicts are detected and resolved early.
+
+  * *Task assignment:* 
+
+    We will use Jira for task assignment in our meetings to set tasks for every group member and make sure that we know what each other is working on right now. Document it.
+
+  * *Deadlines, reevaluation of the deadlines:* 
+
+    Every week (or maybe every two weeks) we track progress and recheck whether we are meeting the deadline. If not, discuss with the team what is causing the delay and set a new deadline/milestone. Document problems.
+
+  * *Documentation:* 
+
+    Once a week, we will assign a person to document management details and check if everyone has documented their changes in technical details. Documentation or comments to team members about documentation (what they should add etc) should be ready on Friday. 
+
+  * *Testing:* 
+
+    As we use FDD, we rely on specific features within our lifecycle, so testing will be conducted alongside the development of each feature.
+
+  * *Project management:* 
+
+    We can change the timeline or some strategies to resolve problems that we mentioned above after group retrospectives or in case of some unpredictable situations. To change something requires the consent of all group members, except if a person is not available for more than 2 weeks.
+
+    
+
+* Timeline (based on Gregs Gannt chart)
+
