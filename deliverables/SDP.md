@@ -124,6 +124,6 @@ Timeline
     * Secure login authentication
     * Sign out option
 * Gantt Chart
-  * ![Timeline_Gantt](https://github.com/user-attachments/assets/c4fedfde-8846-4f83-880d-dc9236eb1a75)
+  * ![Timeline_Gantt](https://github.com/user-attachments/assets/b021a985-b7b0-4770-a95d-a0edb66ee685)
 
 
