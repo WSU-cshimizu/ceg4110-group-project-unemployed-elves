@@ -52,7 +52,7 @@ Administrative
 
     We can change the timeline or some strategies to resolve problems that we mentioned above after group retrospectives or in case of some unpredictable situations. To change something requires the consent of all group members, except if a person is not available for more than 2 weeks.
 
-    
+---
 
 Timeline
 
@@ -92,12 +92,6 @@ Timeline
   * Finalize UI
   * Complete testing
   * Deploy project
-
-
-
-
-
-
 
 * Requirement Specifications
   * The system shall allow users to signup and login with a unique email and password
