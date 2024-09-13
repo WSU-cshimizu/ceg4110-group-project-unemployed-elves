@@ -80,18 +80,18 @@ Timeline
     * Fast data retrieval
 
 * Milestones
-  * #1. Complete the rough HTML skeleton of form submittion and viewing page
-  * #2. Design ER diagram for database implementation
-  * #3. Design initial UI template
-  * #4. Process form submitions on the back end
-  * #5. Set up MongoDB database system
-  * #6. Refine UI design template
-  * #7. Create user signup and login page with basic UI
-  * #8. Implement user authentication
-  * #9. Integrate database with back end
-  * #10. Finalize UI
-  * #11. Complete testing
-  * #12. Deploy project
+  * Complete the rough HTML skeleton of form submittion and viewing page
+  * Design ER diagram for database implementation
+  * Design initial UI template
+  * Process form submitions on the back end
+  * Set up MongoDB database system
+  * Refine UI design template
+  * Create user signup and login page with basic UI
+  * Implement user authentication
+  * Integrate database with back end
+  * Finalize UI
+  * Complete testing
+  * Deploy project
 
 
 
