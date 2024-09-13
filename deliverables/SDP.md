@@ -57,26 +57,26 @@ Administrative
 Timeline
 
   * Minimal Viable Specifications
-  1. User Accounts
-	- Users can create an account by signing up and/or logging in
-	- Users can authenticate into the app via email and password
+  * * 1. User Accounts
+	* * * Users can create an account by signing up and/or logging in
+	* * * Users can authenticate into the app via email and password
 
-  2. Van Issue Documentation
-    - Create new report
-    - Add text descriptions to report
-    - Ability to take photos
-    - Edit previous reports
-    - Delete reports
+  * * 2. Van Issue Documentation
+  * * * Create new report
+  * * * Add text descriptions to report
+  * * * Ability to take photos
+  * * * Edit previous reports
+  * * * Delete reports
 
-  3. User Interface
-    - Intuitive and simple design
-    - Photo and text input fields
-    - Compatible with mobile and desktop viewing
-    - UI is adaptive to different resolutions
+  * * 3. User Interface
+  * * * Intuitive and simple design
+  * * * Photo and text input fields
+  * * * Compatible with mobile and desktop viewing
+  * * * UI is adaptive to different resolutions
 
-  4. Database Implementation
-    - Securely stores sensitive user login information
-    - Stores report data
-    - Fast data retrieval
+  * * 4. Database Implementation
+  * * * Securely stores sensitive user login information
+  * * * Stores report data
+  * * * Fast data retrieval
 
 
