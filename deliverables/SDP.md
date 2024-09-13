@@ -100,6 +100,19 @@ Timeline
 
 
 * Requirement Specifications
+  * The system shall allow users to signup and login with a unique email and password
+  * The system shall allow users to logout
+  * Forms shall document van issues with text descriptions and photos collected by the user
+  * The system shall allow users to create forms
+  * The system shall allow users to edit forms
+  * The system shallow allow users to delete forms
+  * The system shall allow users to view previous forms
+  * The system shall incorporate a database to store user data and sensitive login information
+  * The system shall require user authentication when signing in
+  * The system shall provide views based on the users granted permissions
+  * The system shall prevent users from accessing information outside of their granted permissions
+  * The database shall prevent SQL injections
+  * The web page's load time shall fully load within three seconds
 * Design Specifications
 * Gantt Chart
 ![Timeline_Gantt](https://github.com/user-attachments/assets/c4fedfde-8846-4f83-880d-dc9236eb1a75)
