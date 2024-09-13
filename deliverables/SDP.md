@@ -102,6 +102,7 @@ Timeline
 * Requirement Specifications
   * The system shall allow users to signup and login with a unique email and password
   * The system shall allow users to logout
+  * The system shall allow users to delete their account
   * Forms shall document van issues with text descriptions and photos collected by the user
   * The system shall allow users to create forms
   * The system shall allow users to edit forms
@@ -114,7 +115,21 @@ Timeline
   * The database shall prevent SQL injections
   * The web page's load time shall fully load within three seconds
 * Design Specifications
+  * Architecture
+    * front end
+    * back end
+    * database
+  * Technology Stack
+    * Front End: HTML, CSS, JavaScript, React
+    * Back End: Java, Spring Boot, NodeJS
+    * Database: MongoDB
+    * Authorization: Spring Security
+  * Features
+    * Signup/login page
+    * Form creation, submition, editing, and viewing capabilities
+    * Secure login authentication
+    * Sign out option
 * Gantt Chart
-![Timeline_Gantt](https://github.com/user-attachments/assets/c4fedfde-8846-4f83-880d-dc9236eb1a75)
+  * ![Timeline_Gantt](https://github.com/user-attachments/assets/c4fedfde-8846-4f83-880d-dc9236eb1a75)
 
 
