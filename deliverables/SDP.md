@@ -62,7 +62,7 @@ Timeline
 	  *  Users can authenticate into the app via email and password
 
   * 2 Van Issue Documentation
-    *  Create new report
+    * Create new report
     * Add text descriptions to report
     * Ability to take photos
     * Edit previous reports
@@ -80,10 +80,28 @@ Timeline
     * Fast data retrieval
 
 * Milestones
+  * #1. Complete the rough HTML skeleton of form submittion and viewing page
+  * #2. Design ER diagram for database implementation
+  * #3. Design initial UI template
+  * #4. Process form submitions on the back end
+  * #5. Set up MongoDB database system
+  * #6. Refine UI design template
+  * #7. Create user signup and login page with basic UI
+  * #8. Implement user authentication
+  * #9. Integrate database with back end
+  * #10. Finalize UI
+  * #11. Complete testing
+  * #12. Deploy project
+
+
+
+
+
+
+
 * Requirement Specifications
 * Design Specifications
 * Gantt Chart
-
 ![Timeline_Gantt](https://github.com/user-attachments/assets/c4fedfde-8846-4f83-880d-dc9236eb1a75)
 
 
