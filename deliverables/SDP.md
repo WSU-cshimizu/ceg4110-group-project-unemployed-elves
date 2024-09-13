@@ -79,4 +79,11 @@ Timeline
     * Stores report data
     * Fast data retrieval
 
+* Milestones
+* Requirement Specifications
+* Design Specifications
+* Gantt Chart
+
+![Timeline_Gantt](https://github.com/user-attachments/assets/c4fedfde-8846-4f83-880d-dc9236eb1a75)
+
 

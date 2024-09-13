@@ -34,7 +34,7 @@ Ensure that only certain users can access forms and manage user sessions.
 Technologies: Spring Security
 
 ## 4 Predicted Architecture
-!![System_Diagram](https://github.com/user-attachments/assets/61a47133-bd42-4cfe-9ca7-9370a2aa8d63)
+![System_Diagram](https://github.com/user-attachments/assets/61a47133-bd42-4cfe-9ca7-9370a2aa8d63)
 
 ### 4.1 Frontend
 A web app using HTML/CSS for structure and styling, and JavaScript (React)
