@@ -6,7 +6,8 @@ Administrative
   * Wright State University, Fawcett Room 242  
   * Discord if meeting virtually  
 * Meeting Times:  
-  * 10-20 minutes at the end of class on Tuesday  
+  * 10-20 minutes at the end of class on Tuesday
+  * 2-3 PM on Tuesday 
   * Thursdays 11-12:20 when there is no guest lecture  
   * Anytime virtually as needed Monday-Thursday.  
 * Communication Plan:  
