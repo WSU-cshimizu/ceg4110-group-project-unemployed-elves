@@ -54,7 +54,7 @@ Sameer, Greg, Mariia, Dipesh
 
 ---
 ## Timeline
-
+![Timeline](https://github.com/user-attachments/assets/2b110f0e-5d56-428d-8933-2b1e025d7276)
 ---
 ## Deliverables Rough Draft
 
@@ -82,10 +82,10 @@ Sameer, Greg, Mariia, Dipesh
     * Fast data retrieval
 
 * Milestones
-  * Complete the rough HTML skeleton of form submittion and viewing page
+  * Complete the rough HTML skeleton of form submission and viewing page
   * Design ER diagram for database implementation
   * Design initial UI template
-  * Process form submitions on the back end
+  * Process form submissions on the back end
   * Set up MongoDB database system
   * Refine UI design template
   * Create user signup and login page with basic UI
@@ -122,10 +122,8 @@ Sameer, Greg, Mariia, Dipesh
     * Authorization: Spring Security
   * Features
     * Signup/login page
-    * Form creation, submition, editing, and viewing capabilities
+    * Form creation, submission, editing, and viewing capabilities
     * Secure login authentication
     * Sign out option
-* Gantt Chart
-  * ![Timeline_Gantt](https://github.com/user-attachments/assets/b021a985-b7b0-4770-a95d-a0edb66ee685)
 
 
