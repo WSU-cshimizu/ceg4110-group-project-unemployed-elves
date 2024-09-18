@@ -1,6 +1,6 @@
 Sameer, Greg, Mariia, Dipesh 
 
-Administrative
+## Administrative
 
 * Meeting Locations:   
   * Wright State University, Fawcett Room 242  
@@ -53,8 +53,10 @@ Administrative
     We can change the timeline or some strategies to resolve problems that we mentioned above after group retrospectives or in case of some unpredictable situations. To change something requires the consent of all group members, except if a person is not available for more than 2 weeks.
 
 ---
+## Timeline
 
-Timeline
+---
+## Deliverables Rough Draft
 
 * Minimal Viable Specifications
   * 1 User Accounts
