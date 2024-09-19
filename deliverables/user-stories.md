@@ -9,7 +9,7 @@ One big issue faced by Amazon delivery drivers is proper documentation of issues
 
 ### User Stories
  * As an Amazon delivery driver, I want to store pictures and descriptions of issues to mitigate employment risks.
- * As an Amazon delivery drive, I don't want to login every time I use the app because it's tedious and takes up time.
+ * As an Amazon delivery driver, I want a "remember-me" feature that keeps me logged in unless otherwise specified.
 
  ### Developer Stories
  * 
