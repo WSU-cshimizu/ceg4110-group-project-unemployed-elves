@@ -4,7 +4,7 @@ Sameer, Greg, Mariia, Dipesh
 --- 
 
 ## Project Description
-One big issue faced by Amazon delivery drivers is proper documentation of issues with the van. The app will help keep track of the van's state each time it's used by implementing CRUD functionality to record visual and descriptive records.
+The project is a web application designed for Amazon delivery drivers to easily document van issues. Instead of registering, drivers can verify their identity using their AmazonID. Once verified, they can fill out a simple form to report problems with their vans, providing details such as the type of issue, a description, and its status. This tool helps drivers keep track of van conditions and communicate with management. 
 
 
 ### User Stories
