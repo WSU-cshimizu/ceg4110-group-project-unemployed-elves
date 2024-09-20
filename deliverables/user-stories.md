@@ -9,7 +9,8 @@ The project is a web application designed for Amazon delivery drivers to easily 
 
 ### User Stories
  * As an Amazon delivery driver, I want to store pictures and descriptions of issues to mitigate employment risks.
- * As an Amazon delivery driver, I want a "remember-me" feature that keeps me logged in unless otherwise specified.
+ * As an Amazon delivery driver, I want a "remember-me" feature that keeps me logged in unless otherwise specified,
+so I can avoid logging in repeatedly.
  * As an Amazon delivery driver, I want to quickly log in to the system using my ID, so I can access it without additional sign-up.
  * As an Amazon delivery driver, I want to include the exact date and time when I discovered the van issue, so my manager can see when it occurred.
 
