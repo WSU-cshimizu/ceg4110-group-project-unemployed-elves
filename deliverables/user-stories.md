@@ -17,6 +17,7 @@ The project is a web application designed for Amazon delivery drivers to easily 
 * As a Frontend developer, I want to know which devices this product will be used on, so that I can determine if I need to implement responsive design features.
 * As a Frontend developer, I want to know the precise features of the forms and what kind of inputs users will provide, so that I can implement the correct form functionality.
 * As a backend developer, I want to be sure that driver data (Name/Surname/Driver ID) is pre-loaded into the database, so I can use this information for driver verification during login.
+* As a backend developer, I want to return a message indicating wrong driver data was inputted if there was a partial match to the input so that we can make sure a correction process is happening.  
 
   
  ### Testing Stories
