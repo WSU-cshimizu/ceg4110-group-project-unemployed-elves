@@ -17,7 +17,8 @@ The project is a web application designed for Amazon delivery drivers to easily 
 * As a Frontend developer, I want to know which devices this product will be used on, so that I can determine if I need to implement responsive design features.
 * As a Frontend developer, I want to know the precise features of the forms and what kind of inputs users will provide, so that I can implement the correct form functionality.
 * As a backend developer, I want to be sure that driver data (Name/Surname/Driver ID) is pre-loaded into the database, so I can use this information for driver verification during login.
-* 
+
+  
  ### Testing Stories
 * As a testing developer, I want to test the user authorization form for different user inputs  so  I can be sure that only amazon delivery drivers can log in.
 * As a testing developer, I want to verify that multiple users can use website simultaneously, so I can be sure that the system remains stable and does not collapse under concurrent usage.
