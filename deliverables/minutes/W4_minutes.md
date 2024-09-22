@@ -71,7 +71,7 @@ After the notes and action items have been pushed, each person should take a tim
 *  **Mariia**: By the way, I can begin working on the design specification.
 *  **Everybody**: Agreed.
 
-*  
+
 ### Action Items
 * **Mariia**:
   * Complete testing and frontend/backend stories.
