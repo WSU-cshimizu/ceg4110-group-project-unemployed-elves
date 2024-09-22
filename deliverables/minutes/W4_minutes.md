@@ -77,9 +77,9 @@ After the notes and action items have been pushed, each person should take a tim
 * **Sameer**
    * Add stories for the backend dev and database.
 * **Greg**:
- * Revise the user stories according to the template.
+  * Revise the user stories according to the template.
  *  **Dipesh**
-* Determine what tasks we need to complete on the frontend of the project / or just start working on it.
+  * Determine what tasks we need to complete on the frontend of the project / or just start working on it.
 
 ### Signatures
 If everything is agreeable, push a single commit with your name as a signature.
