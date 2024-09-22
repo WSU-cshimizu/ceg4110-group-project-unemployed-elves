@@ -37,8 +37,7 @@ These are generally distilled from the notes. Essentially, these are "by the nex
   * Make new section for "Deliverables Rough Draft" on the SDP file
     * Accidentally misinterpreted instructions and produced the wrong content for timeline section but the information can still be useful later on
 * Mariia
-  *  Complete user stories for developers, user (5) and testing (2)
-
+  *  Complete user stories for developers, user (5) and testing (2).
 
 ### Signatures
 After the notes and action items have been pushed, each person should take a time to review them. If everything is agreeable, push a single commit with your name as a signature. 
@@ -48,36 +47,41 @@ After the notes and action items have been pushed, each person should take a tim
 
 ---
 
-## Meeting #2 - 
+## Meeting #2 - Thursday 9/19
 
 ### Administrivia
-The scribe is the person taking the _notes_. This is encouraged to be a single person to reduce problems.
-* Time: _time_
-* Location: _location_ (virtual?)
-* Scribe: _person_
+* **Time**: 11:00 AM - 12:20 PM
+* **Location**: Fawcett Hall 204
+* **Scribe**: Mariia Lozovatska
 
 ### Agenda
-* Item 1
-  * Sub-item 1:
-  * ...
-* ...
+* Discuss user stories
+  * Review what everybody did
+  * Concretize them
+* Discuss  dev plan
 
 ### Notes
-* Person 1: _statement_
-  * Person 3: _follow on statement_
-* Person 2: _statement_
-* ...
+* **Greg, Dipesh**: I've uploaded user stories, what did we think about it?
+  * **Mariia**: Maybe we should be more concrete in our user stories, like describing specific features rather than being general.
+  * **Sameer, Greg, Dipesh**: Yes, agree, we should break everything down in detail.
+  * **Greg**: I can fix it today, but we only have user stories for the user.
+* **Mariia**: Okay, I can do the stories for developers and testing.
+* **Sameer**: Okay, I will add some stories for the backend developer and/or database.
+* **Dipesh**: I can start working on the frontend.
+*  **Mariia**: By the way, I can begin working on the design specification.
+*  **Everybody**: Agreed.
 
 ### Action Items
-These are generally distilled from the notes. Essentially, these are "by the next meetings, _this person_ will take _this action_."
-* Person 1
-  * Item 1
-  * Item 2
-* Person 2
-  * ...
-* ...
+* **Mariia**:
+  *  Complete testing and frontend/backend stories.
+* **Sameer**
+   * Add stories for the backend dev and database.
+* **Greg**:
+ * Revise the user stories according to the template.
+ *  **Dipesh**
+* Determine what tasks we need to complete on the frontend of the project / or just start working on it.
 
 ### Signatures
-After the notes and action items have been pushed, each person should take a time to review them. If everything is agreeable, push a single commit with your name as a signature. 
-* Person 1
-* ...
+If everything is agreeable, push a single commit with your name as a signature.
+* Mariia Lozovatska
+
