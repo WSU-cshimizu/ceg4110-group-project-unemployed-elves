@@ -36,15 +36,15 @@ These are generally distilled from the notes. Essentially, these are "by the nex
   * Update and upload Gantt chart to GitHub
   * Make new section for "Deliverables Rough Draft" on the SDP file
     * Accidentally misinterpreted instructions and produced the wrong content for timeline section but the information can still be useful later on
-* Person 2
-  * ...
-* ...
+* Mariia
+  *  Complete user stories for developers, user (5) and testing (2)
+
 
 ### Signatures
 After the notes and action items have been pushed, each person should take a time to review them. If everything is agreeable, push a single commit with your name as a signature. 
 * Gregory Terrell
 * Sameer Baig
-* 
+* Mariia Lozovatska
 
 ---
 
