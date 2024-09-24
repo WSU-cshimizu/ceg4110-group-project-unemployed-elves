@@ -87,4 +87,4 @@ After the notes and action items have been pushed, each person should take a tim
 If everything is agreeable, push a single commit with your name as a signature.
 * Mariia Lozovatska
 * Sameer Baig
-
+* Gregory Terrell
