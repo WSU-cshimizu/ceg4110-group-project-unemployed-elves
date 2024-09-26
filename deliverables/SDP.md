@@ -54,8 +54,19 @@ Sameer, Greg, Mariia, Dipesh
 
 ---
 ## Timeline
-![Timeline](https://github.com/user-attachments/assets/2b110f0e-5d56-428d-8933-2b1e025d7276)
+![Timeline](https://github.com/user-attachments/assets/95a7fa07-e4bb-46af-8ea6-e12f6bb10e9c)
+
+### Clarifications
+ - Dates on the timeline Gantt chart indicate the start of the week when the check in deadlines are due. It is assumed that the deadline will be 5 pm on Fridays of the same week.
+ - More specific milestones will be created once more specifics of the project are defined after completing the requirement specs, MVS, and design specs rough drafts
+
+### Timeline Updates
+ - Changed Requirement Specifications due date to 10/4
+ - Changed MVS due date to 10/18
+ - Changed Design Specifications due date to 10/18
+ - Removed Milestones creation
 ---
+
 ## Deliverables Rough Draft
 
 * Minimal Viable Specifications
