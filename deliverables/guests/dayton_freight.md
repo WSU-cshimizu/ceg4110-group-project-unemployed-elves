@@ -15,7 +15,7 @@ It's interesting that they require developers to understand the "why" behind use
 * 2
 
 ## Differences between SDLC lesson and guest lecture
- * In class, we discussed that a user story is not necessarily a strict software system requirement but rather a way to capture user needs in simple terms.
+ * **Definition and purpose of user stories:** In class, we discussed that a user story is not necessarily a strict software system requirement but rather a way to capture user needs in simple terms.
    But, Tim said that in his  company, user stories are used on their Kanban board to assign specific tasks to developers, so treating them as more concrete work items.
- * Difference between Scrum perception. In class, we discussed one of the manifesto of Agile methodologies, which is "responding to change over following a plan."
+ * **Difference between Scrum perception:** In class, we discussed one of the manifesto of Agile methodologies, which is "responding to change over following a plan."
    But, Tim mentioned that his company decided not to use Agile (specifically Scrum) because, while it sounds good in theory, they often face emergency situations that require immediate action. Scrum, with its structured sprints and planning, doesn’t allow them flexibility needed in such cases. 
