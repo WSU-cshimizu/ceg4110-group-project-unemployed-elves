@@ -26,7 +26,7 @@
 - **Field Validations:**
   - **Name** and **Surname:** Must only accept alphabetic characters and should not be more than 50 characters.
   - **Driver ID:** Must be numeric and conform to a specific format (e.g., 6 digits).
-  - **Phone Number:** Must follow a valid format (will be (XXX) XXX-XXXX) and must be numeris
+  - **Phone Number:** Must follow a valid format (will be (XXX) XXX-XXXX) and must be numeric.
 
 - **Submission Rules:** Users must not be allowed to submit the form unless all required fields are filled out and valid.
 
