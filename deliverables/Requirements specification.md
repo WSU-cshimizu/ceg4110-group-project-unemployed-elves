@@ -32,15 +32,14 @@
 
 - **Pop-Up Message:** The pop-up message for incorrect fields must disappear after no more than 10 seconds to maintain a clean interface.
   
-### Second Page: User Authentication **(Functionality)**
-
+### Second Page: Van Issue Documenting Form **(Functionality)**
 
 ## Main Object
 
 - An HTML form for documenting van issues with the following sections:
   - **Driver ID**  + text input.
   - **Date and Time of Issue**  + text input in format MM/DD/YYYY and HH/MM
-  - **Issue Type**  ¡ dropdown list with predefined types + and "Other" option if unusual type of problem.
+  - **Issue Type**  + dropdown list with predefined types + and "Other" option if unusual type of problem.
   - **Issue Description** + text input.
   - **Status** dropdown list with predefined types.
   - **Submit** button
