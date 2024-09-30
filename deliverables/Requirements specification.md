@@ -3,10 +3,10 @@
 ### First Page: User Authentication **(Functionality)**
 
 - **Main Object:** An HTML form with four sections: 
-  - **Name**
-  - **Surname**
-  - **Driver ID**
-  - **Phone Number**
+  - **Name** + text input.
+  - **Surname**  + text input.
+  - **Driver ID**  + text input.
+  - **Phone Number**  + text input.
   - **Submit** button
   
 - **User-Friendly Feature:** Each field should include an example, displayed in a slightly transparent manner to guide users on how to enter their information.
@@ -31,3 +31,22 @@
 - **Submission Rules:** Users must not be allowed to submit the form unless all required fields are filled out and valid.
 
 - **Pop-Up Message:** The pop-up message for incorrect fields must disappear after no more than 10 seconds to maintain a clean interface.
+  
+### Second Page: User Authentication **(Functionality)**
+
+
+## Main Object
+
+- An HTML form for documenting van issues with the following sections:
+  - **Driver ID**  + text input.
+  - **Date and Time of Issue**  + text input in format MM/DD/YYYY and HH/MM
+  - **Issue Type**  ¡ dropdown list with predefined types + and "Other" option if unusual type of problem.
+  - **Issue Description** + text input.
+  - **Status** dropdown list with predefined types.
+  - **Submit** button
+
+## User-Friendly Features
+
+- Each field should include an example, displayed in a slightly transparent manner to guide users on how to enter their information.
+- Hovering over any field will display additional information about what is required.
+- The **Date and Time of Issue** field will have the current date and time pre-filled. User should be allowed to change it.
