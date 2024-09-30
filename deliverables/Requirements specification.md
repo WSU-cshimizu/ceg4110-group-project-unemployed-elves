@@ -24,9 +24,9 @@
 - **User Registration:** All users (drivers) will not register individually; their information will be pre-loaded into a database.
 
 - **Field Validations:**
-  - **Name** and **Surname:** Must only accept alphabetic characters and should not exceed 50 characters in length.
+  - **Name** and **Surname:** Must only accept alphabetic characters and should not be more than 50 characters.
   - **Driver ID:** Must be numeric and conform to a specific format (e.g., 6 digits).
-  - **Phone Number:** Must follow a valid format (e.g., (XXX) XXX-XXXX) and must be verified to be numeric.
+  - **Phone Number:** Must follow a valid format (will be (XXX) XXX-XXXX) and must be numeris
 
 - **Submission Rules:** Users must not be allowed to submit the form unless all required fields are filled out and valid.
 
