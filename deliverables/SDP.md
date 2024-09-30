@@ -57,7 +57,7 @@ Sameer, Greg, Mariia, Dipesh
 ![Timeline](https://github.com/user-attachments/assets/95a7fa07-e4bb-46af-8ea6-e12f6bb10e9c)
 
 ### Clarifications
- - Dates on the timeline Gantt chart indicate the start of the week when the check in deadlines are due. It is assumed that the deadline will be 5 pm on Fridays of the same week.
+ - Dates on the timeline Gantt chart indicate the start of the week. It is assumed that the deadline will be 5 pm on Fridays of the same week.
  - More specific milestones will be created once more specifics of the project are defined after completing the requirement specs, MVS, and design specs rough drafts
 
 ### Timeline Updates
