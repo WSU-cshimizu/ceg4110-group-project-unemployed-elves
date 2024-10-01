@@ -22,3 +22,6 @@ It's interesting that they require developers to understand the "why" behind use
 ## Difference between class lecture and guest lecture
  * **Definition and purpose of user stories:** In class, we discussed that a user story is not necessarily a strict software system requirement but rather a way to capture user needs in simple terms.
    But, Tim said that in his  company, user stories are used on their Kanban board to assign specific tasks to developers, so treating them as more concrete work items.
+
+
+Mariia
