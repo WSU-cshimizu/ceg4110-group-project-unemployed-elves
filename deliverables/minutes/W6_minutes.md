@@ -35,15 +35,15 @@ Week 6
   * Sameer: User authentication on the login UI page would be easy to work with.
   * Everyone: Agrees
 * Sameer: Draws data flow diagram
-  * ![1](https://github.com/user-attachments/assets/89f48904-c2f1-463a-b4ec-95b8019b767a)
+  * ![data_flow_diagram](https://github.com/user-attachments/assets/efb4d379-fa8c-4489-b57d-bc4f8d687122)
 * Greg: Draws swim lane diagram
-  * ![2](https://github.com/user-attachments/assets/5b7aea60-957c-472d-bc70-c9a6663d877b)
+  * ![swim_lane_diagram](https://github.com/user-attachments/assets/f497efac-4dab-4782-a929-755a056806c6)
 * Mariia: Okay, I like how everything looks so far but we need to get feedback from Cogan.
   * Everyone: Agrees
 * Cogan: It looks mostly perfect. I would recommend changing the labeling on the data flow diagram of the UI pages to "First UI Page" and "Second UI Page".
   * Sameer: Thank you for the feedback. I have one quick question about our data flow diagram though. We represented the backend using two different blocks to illustrate it's specific function at different stages of the authentication process. However, when we implement our design, the backend will exist as a singular entity. How would you go about representing the backend within the data flow diagram given these two conflicting ideas?
   * Cogan: I would draw the backend as a large box with each individual function labeled inside of it instead of separated blocks. This way both ideas are represented in a cohesive way. Here's how I would visualize it (draws photo below)
-    * ![3](https://github.com/user-attachments/assets/8cd28546-443f-4601-bb49-43bc947f5a2e)
+    * ![backend_clarification](https://github.com/user-attachments/assets/410f73ef-2261-47a7-865c-5f0a3b0b9ae5)
   * Sameer: Okay, that makes sense. Thank you.
 
 
