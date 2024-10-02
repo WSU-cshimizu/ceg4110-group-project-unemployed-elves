@@ -49,3 +49,7 @@
 - Each field should include an example, displayed in a slightly transparent manner to guide users on how to enter their information.
 - Hovering over any field will display additional information about what is required.
 - The **Date and Time of Issue** field will have the current date and time pre-filled. User should be allowed to change it.
+  
+- **Concurrent Access:** The form should function properly when two or more users attempt to log in simultaneously.
+- **Responsiveness:** The page must be responsive, ensuring it displays correctly on all devices, including smartphones, tablets, and desktops.
+- **Browser Compatibility:** The authentication form must be tested and function correctly across all major browsers (Chrome, Firefox, Safari, and Edge).
