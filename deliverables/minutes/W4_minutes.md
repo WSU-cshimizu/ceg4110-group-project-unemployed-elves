@@ -88,3 +88,4 @@ If everything is agreeable, push a single commit with your name as a signature.
 * Mariia Lozovatska
 * Sameer Baig
 * Gregory Terrell
+* Dipesh Chandra Jha
