@@ -38,7 +38,7 @@
 
 - An HTML form for documenting van issues with the following sections:
   - **Driver ID**  + text input.
-  - **Date and Time of Issue**  + text input in format MM/DD/YYYY and HH/MM
+  - **Date and Time of Issue**  + numeric input with certain format.
   - **Issue Type**  + dropdown list with predefined types + and "Other" option if unusual type of problem.
   - **Issue Description** + text input.
   - **Status** dropdown list with predefined types.
@@ -53,3 +53,25 @@
 - **Concurrent Access:** The form should function properly when two or more users attempt to log in simultaneously.
 - **Responsiveness:** The page must be responsive, ensuring it displays correctly on all devices, including smartphones, tablets, and desktops.
 - **Browser Compatibility:** The authentication form must be tested and function correctly across all major browsers (Chrome, Firefox, Safari, and Edge).
+
+
+### CONSTRAINTS (IN PROGRESS)
+
+### Field Validations
+- **Driver ID:**
+ ?? numeric 6 digit or what?
+- **Date and Time of Issue:**
+  - Must follow the format MM/DD/YYYY for the date and HH/MM PM/AM for the time.
+  - Date must not be in the past (should be today's date or a future date).
+- **Issue Type:**
+  - Must select one option from the dropdown.
+  - If "Other" is selected, an additional text input must be provided for the description of the issue type.
+- **Issue Description:**
+  - Maximum character length: 400 characters.
+  - Must not be empty.
+- **Status:**
+  - Must select one option from the dropdown : New  / In-Progress / Resolved (?)
+
+### Submission Rules
+- Users must not be allowed to submit the form unless all required fields are filled out and in valid format.
+- The Submit Button should be disabled until all validations pass.
