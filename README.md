@@ -12,3 +12,7 @@
 **year:** Graduate 1st year 
 **Education Background:** Bachelor of engineering in Electronics,communication and information engineering.
 
+**Name:**  Sameer Baig
+**Year:** Senior Year, final semester
+**Education Background:** Computer Science Major
+
