@@ -18,11 +18,11 @@
 1.2. **User-Friendly Feature:**  
     1.2.1. Each input field will include an example (placeholder) in a slightly transparent manner to guide the user on how to enter the information correctly.  
 
-1.3. **User Requirements:**  Users must enter:   
-      1.3.1. Name    
-      1.3.2. Surname  
-      1.3.3. Driver ID  
-      1.3.4. Phone Number  
+1.3. **User Requirements:**  Users are required to enter:   
+      Name    
+      Surname  
+      Driver ID  
+      Phone Number  
 
 1.4. **Validation:**     
    1.4.1. The provided information will be verified against the pre-loaded database of user details.  
