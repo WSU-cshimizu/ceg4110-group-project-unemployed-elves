@@ -27,12 +27,11 @@
 5. **Concurrent Access:**  
    5.1. The form should function properly when two or more users attempt to log in simultaneously.
 
-7. **Responsiveness:**
-   
-   - 6.1. The page must be responsive, ensuring proper display on all devices (smartphones, tablets, desktops).
+6. **Responsiveness:**  
+   6.1. The page must be responsive, ensuring proper display on all devices (smartphones, tablets, desktops).
 
-8. **Browser Compatibility:**
-       - 7.1. The form must work across all major browsers (Chrome, Firefox, Safari, and Edge).
+7. **Browser Compatibility:**
+       7.1. The form must work across all major browsers (Chrome, Firefox, Safari, and Edge).
 
 ---
 
@@ -40,27 +39,27 @@
 
 #### Constraints
 
-5. **User Registration:**
+8. **User Registration:**
    - 5.1. Users (drivers) will not register manually; all information will be pre-loaded into the database.
 
-6. **Field Validations:**
-   - 6.1. Name and Surname fields:
-     - 6.1.1. Must only accept alphabetic characters.
-     - 6.1.2. Must not exceed 50 characters.
+9. **Field Validations:**
+   - 9.1. Name and Surname fields:
+     - 9.1.1. Must only accept alphabetic characters.
+     - 9.1.2. Must not exceed 50 characters.
    
-   - 6.2. Driver ID field:
-     - 6.2.1. Must only accept numeric characters.
-     - 6.2.1. Must follow a specific format (e.g., 6 digits).
+   - 9.2. Driver ID field:
+     - 9.2.1. Must only accept numeric characters.
+     - 9.2.1. Must follow a specific format (e.g., 6 digits).
 
-   - 6.3. Phone Number field:
-     - 6.3.1. Must follow a specific format (e.g., (XXX) XXX-XXXX).
-     - 6.3.2. Must only accept numeric input.
+   - 9.3. Phone Number field:
+     - 9.3.1. Must follow a specific format (e.g., (XXX) XXX-XXXX).
+     - 9.3.2. Must only accept numeric input.
 
-7. **Submission Rules:**
-   - 7.1. The form should not be submitted unless all required fields are filled and valid.
+10. **Submission Rules:**
+   - 10.1. The form should not be submitted unless all required fields are filled and valid.
 
-8. **Pop-Up Message:**
-   - 8.1. Error messages should disappear after a maximum of 10 seconds.
+11. **Pop-Up Message:**
+   - 11.1. Error messages should disappear after a maximum of 10 seconds.
 
 ---
 
