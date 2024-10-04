@@ -1,76 +1,121 @@
 # Requirements Specification
 
-### First Page: User Authentication **(Functionality)**
+### First Page: User Authentication
 
-- **Main Object:** An HTML form with four sections: 
-  - **Name** + text input.
-  - **Surname**  + text input.
-  - **Driver ID**  + text input.
-  - **Phone Number**  + text input.
-  - **Submit** button
-  
-- **User-Friendly Feature:** Each field should include an example, displayed in a slightly transparent manner to guide users on how to enter their information.
-- **User Requirements:**
-  - Users must enter their **Name**, **Surname**, **Driver ID**, and **Phone Number**.
-  - If the provided information matches an entry in the database, users will be allowed to proceed to the next page.
-  - If not, a pop-up message will indicate which field is incorrect.
-- **Concurrent Access:** The form should function properly when two or more users attempt to log in simultaneously.
-- **Responsiveness:** The page must be responsive, ensuring it displays correctly on all devices, including smartphones, tablets, and desktops.
-- **Browser Compatibility:** The authentication form must be tested and function correctly across all major browsers (Chrome, Firefox, Safari, and Edge).
+#### Functionality
 
+1. **Main Object:**
+   -  An HTML form with the following sections:
+     - 1.1. Name + text input
+     - 1.2. Surname + text input
+     - 1.3. Driver ID + text input
+     - 1.4. Phone Number + text input
+     - 1.5. Submit button
 
-### First Page: User Authentication **(Constraints)**
+2. **User-Friendly Feature:**
+   - 2.1. Each input field will include an example (placeholder) in a slightly transparent manner to guide the user on how to enter the information correctly.
 
-- **User Registration:** All users (drivers) will not register individually; their information will be pre-loaded into a database.
+3. **User Requirements:**
+     Users must enter:
+     - 3.1. Name
+     - 3.2. Surname
+     - 3.3. Driver ID
+     - 3.4. Phone Number
 
-- **Field Validations:**
-  - **Name** and **Surname:** Must only accept alphabetic characters and should not be more than 50 characters.
-  - **Driver ID:**  One symbol + 6 digits
-  - **Phone Number:** Must follow a valid format (will be (XXX) XXX-XXXX) and must be numeric.
+4. **Validation:**
+   - 4.1. The provided information will be verified against the pre-loaded database of user details.
+   - 4.2. If the data matches, the user will proceed to the next page.
+   - 4.3. If there is an error, a pop-up will indicate which field is incorrect.
 
-- **Submission Rules:** Users must not be allowed to submit the form unless all required fields are filled out and valid.
+5. **Concurrent Access:**
+   - 5.1. The form should function properly when two or more users attempt to log in simultaneously.
 
-- **Pop-Up Message:** The pop-up message for incorrect fields must disappear after no more than 10 seconds to maintain a clean interface.
-  
-### Second Page: Van Issue Documenting Form **(Functionality)**
+6. **Responsiveness:**
+   - 6.1. The page must be responsive, ensuring proper display on all devices (smartphones, tablets, desktops).
 
-## Main Object
+7. **Browser Compatibility:**
+   - 7.1. The form must work across all major browsers (Chrome, Firefox, Safari, and Edge).
 
-- An HTML form for documenting van issues with the following sections:
-  - **Driver ID**  + text input.
-  - **Date and Time of Issue**  + numeric input with certain format.
-  - **Issue Type**  + dropdown list with predefined types + and "Other" option if unusual type of problem.
-  - **Issue Description** + text input.
-  - **Status** dropdown list with predefined types.
-  - **Submit** button
+---
 
-## User-Friendly Features
+### First Page: User Authentication
 
-- Each field should include an example, displayed in a slightly transparent manner to guide users on how to enter their information.
-- Hovering over any field will display additional information about what is required.
-- The **Date and Time of Issue** field will have the current date and time pre-filled. User should be allowed to change it.
-  
-- **Concurrent Access:** The form should function properly when two or more users attempt to log in simultaneously.
-- **Responsiveness:** The page must be responsive, ensuring it displays correctly on all devices, including smartphones, tablets, and desktops.
-- **Browser Compatibility:** The authentication form must be tested and function correctly across all major browsers (Chrome, Firefox, Safari, and Edge).
+#### Constraints
 
+5. **User Registration:**
+   - 5.1. Users (drivers) will not register manually; all information will be pre-loaded into the database.
 
-### CONSTRAINTS (IN PROGRESS)
+6. **Field Validations:**
+   - 6.1. Name and Surname fields:
+     - 6.1.1. Must only accept alphabetic characters.
+     - 6.1.2. Must not exceed 50 characters.
+   
+   - 6.2. Driver ID field:
+     - 6.2.1. Must only accept numeric characters.
+     - 6.2.1. Must follow a specific format (e.g., 6 digits).
 
-### Field Validations
-- **Driver ID:** One symbol + 6 digits
-- **Date and Time of Issue:**
-  - Must follow the format MM/DD/YYYY for the date and HH/MM PM/AM for the time.
-  - Date must not be in the past (should be today's date or a future date).
-- **Issue Type:**
-  - Must select one option from the dropdown.
-  - If "Other" is selected, an additional text input must be provided for the description of the issue type.
-- **Issue Description:**
-  - Maximum character length: 400 characters.
-  - Must not be empty.
-- **Status:**
-  - Must select one option from the dropdown : New  / In-Progress / Resolved (?)
+   - 6.3. Phone Number field:
+     - 6.3.1. Must follow a specific format (e.g., (XXX) XXX-XXXX).
+     - 6.3.2. Must only accept numeric input.
 
-### Submission Rules
-- Users must not be allowed to submit the form unless all required fields are filled out and in valid format.
-- The Submit Button should be disabled until all validations pass.
+7. **Submission Rules:**
+   - 7.1. The form should not be submitted unless all required fields are filled and valid.
+
+8. **Pop-Up Message:**
+   - 8.1. Error messages should disappear after a maximum of 10 seconds.
+
+---
+
+### Second Page: Van Issue Documenting Form
+
+#### Functionality
+
+1. **Main Object:**
+   -  An HTML form with the following sections:
+     - 1.1. Driver ID + text input
+     - 1.2. Date and Time of Issue + numeric input
+     - 1.3. Issue Type + dropdown list with predefined options and an "Other" option
+     - 1.4. Issue Description + text input
+     - 1.5. Status + dropdown list (New, In-Progress, Resolved)
+     - 1.6. Submit button
+
+2. **User-Friendly Features:**
+   - 2.1. Each field will include an example (placeholder) to guide users.
+   - 2.2. Hovering over fields will display additional information.
+   - 2.3. The Date and Time field will be pre-filled with the current date and time but can be modified by the user.
+
+### Second Page: Van Issue Documenting Form
+
+#### Constraints
+
+3. **Field Validations:**
+   - 3.1. Driver ID:
+     - 3.1.1. Must be numeric (e.g., 6 digits).
+   
+   - 3.2. Date and Time of Issue:
+     - 3.2.1. Must follow the format MM/DD/YYYY for the date and HH/MM PM/AM for the time.
+     - 3.2.2. Date must not be in the past (today’s date or future dates only).
+   
+   - 3.3. Issue Type:
+     - 3.3.1. Must select one option from the dropdown.
+     - 3.3.2. If "Other" is selected, an additional input field should appear for further details.
+
+   - 3.4. Issue Description:
+     - 3.4.1. Must not exceed 400 characters.
+     - 3.4.2. Must not be empty.
+
+   - 3.5. Status:
+     - 3.5.1. Must select one option from the dropdown (New, In-Progress, Resolved).
+
+4. **Submission Rules:**
+   - 4.1. The form should not be submitted unless all required fields are valid.
+   - 4.2. The Submit button must remain disabled until all fields pass validation.
+
+5. **Concurrent Access:**
+   - 5.1. The form should function properly when two or more users are logging in simultaneously.
+
+6. **Responsiveness:**
+   - 6.1. The page must be responsive and display correctly on all devices (smartphones, tablets, desktops).
+
+7. **Browser Compatibility:**
+   - 7.1. The form must work across all major browsers (Chrome, Firefox, Safari, and Edge).
