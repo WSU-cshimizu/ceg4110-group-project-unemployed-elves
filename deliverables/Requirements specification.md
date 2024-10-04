@@ -1,8 +1,13 @@
 # Requirements Specification
 
-1. ### First Page: User Authentication  
+0. ## General requirements: 
+0.1. **Concurrent Access:**  The form should function properly when two or more users are logging in/filling out the form simultaneously.  
+0.2 **Responsiveness:** Pages must be responsive and display correctly on all devices (smartphones, tablets, desktops).  
+0.3 **Browser Compatibility:**  Forms must work across all major browsers (Chrome, Firefox, Safari, and Edge).  
 
-#### Functionality
+1. ## First Page: User Authentication  
+
+### Functionality
 1.1. **Main Object:** An HTML form with the following sections:  
         1.1.1. Name + text input   
         1.1.2. Surname + text input  
@@ -24,19 +29,11 @@
    1.4.2. If the data matches, the user will proceed to the next page.  
    1.4.3. If there is an error, a pop-up will indicate which field is incorrect.  
 
-1.5. **Concurrent Access:**  
-   5.1. The form should function properly when two or more users attempt to log in simultaneously.
-
-1.6. **Responsiveness:**  
-   1.6.1. The page must be responsive, ensuring proper display on all devices (smartphones, tablets, desktops).
-
-1.7. **Browser Compatibility:**  
-       1.7.1. The form must work across all major browsers (Chrome, Firefox, Safari, and Edge).
 
 ---
 
 
-#### Constraints
+### Constraints
 
 1.8. **User Registration:**    
     1.8.1. Users (drivers) will not register manually; all information will be pre-loaded into the database.  
@@ -60,9 +57,9 @@
 
 ---
 
-2. ### Second Page: Van Issue Documenting Form
+2. ## Second Page: Van Issue Documenting Form
 
-#### Functionality
+### Functionality
 
 2.1. **Main Object:** An HTML form with the following sections:  
       2.1.1. Driver ID + text input  
@@ -77,9 +74,8 @@
    2.2.2. Hovering over fields will display additional information.  
    2.2.3. The Date and Time field will be pre-filled with the current date and time but can be modified by the user.  
 
-### Second Page: Van Issue Documenting Form
 
-#### Constraints
+### Constraints
 
 2.3. **Field Validations:**  
      2.3.1. Driver ID:  
@@ -102,12 +98,3 @@
 4. **Submission Rules:**  
    4.1. The form should not be submitted unless all required fields are valid.  
    4.2. The Submit button must remain disabled until all fields pass validation.  
-
-5. **Concurrent Access:**  
-   5.1. The form should function properly when two or more users are logging in simultaneously.  
-
-6. **Responsiveness:**  
-    6.1. The page must be responsive and display correctly on all devices (smartphones, tablets, desktops).  
-
-7. **Browser Compatibility:**  
-   7.1. The form must work across all major browsers (Chrome, Firefox, Safari, and Edge).  
