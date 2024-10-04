@@ -10,25 +10,22 @@
         1.4. Phone Number + text input  
         1.5. Submit button  
 
-3. **User-Friendly Feature:**
-   
-    2.1. Each input field will include an example (placeholder) in a slightly transparent manner to guide the user on how to enter the information correctly.
+2. **User-Friendly Feature:**  
+    2.1. Each input field will include an example (placeholder) in a slightly transparent manner to guide the user on how to enter the information correctly.  
 
-4. **User Requirements:**  Users must enter:
-      3.1. Name
-      3.2. Surname
-      3.3. Driver ID
-      3.4. Phone Number
+3. **User Requirements:**  Users must enter:  
+      3.1. Name  
+      3.2. Surname  
+      3.3. Driver ID  
+      3.4. Phone Number  
 
-5. **Validation:**
-   
-   4.1. The provided information will be verified against the pre-loaded database of user details.
-   4.2. If the data matches, the user will proceed to the next page.
-   4.3. If there is an error, a pop-up will indicate which field is incorrect.
+4. **Validation:**     
+   4.1. The provided information will be verified against the pre-loaded database of user details.  
+   4.2. If the data matches, the user will proceed to the next page.  
+   4.3. If there is an error, a pop-up will indicate which field is incorrect.  
 
-6. **Concurrent Access:**
-   
-   - 5.1. The form should function properly when two or more users attempt to log in simultaneously.
+5. **Concurrent Access:**  
+   5.1. The form should function properly when two or more users attempt to log in simultaneously.
 
 7. **Responsiveness:**
    
