@@ -93,10 +93,10 @@
      2.3.3.1. Must select one option from the dropdown.  
      2.3.3.2. If "Other" is selected, an additional input field should appear for further details.  
      2.3.3.3. Additional input must not be empty.  
-     2.3.4. Issue Description:
-     2.3.4.1. Must not exceed 400 characters.
-     2.3.4.2. Must not be empty.
-     2.3.5. Status:
+     2.3.4. Issue Description:  
+     2.3.4.1. Must not exceed 400 characters.  
+     2.3.4.2. Must not be empty.  
+     2.3.5. Status:  
      2.3.5.1. Must select one option from the dropdown (New, In-Progress, Resolved). 
 
 4. **Submission Rules:**  
