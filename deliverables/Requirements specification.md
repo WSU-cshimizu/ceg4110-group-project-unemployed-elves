@@ -35,25 +35,25 @@
 
 ### Constraints
 
-1.8. **User Registration:**    
-    1.8.1. Users (drivers) will not register manually; all information will be pre-loaded into the database.  
+1.5. **User Registration:**    
+    1.5.1. Users (drivers) will not register manually; all information will be pre-loaded into the database.  
 
-1.9. **Field Validations:**  
-      1.9.1 Name and Surname fields:   
-      1.9.1.1 Must only accept alphabetic characters.  
-      1.9.1.2. Must not exceed 50 characters.  
-      1.9.2. Driver ID field:        
-      1.9.2.1 Must only accept numeric characters.  
-      1.9.2.2 Must follow a specific format one symbol 6 digits.  
-      1.9.3. Phone Number field:       
-      1.9.3.1 Must follow a specific format ((XXX) XXX-XXXX).  
-      1.9.3.2. Must only accept numeric input.  
+1.6. **Field Validations:**  
+      1.6.1 Name and Surname fields:   
+      1.6.1.1 Must only accept alphabetic characters.  
+      1.6.1.2. Must not exceed 50 characters.  
+      1.6.2. Driver ID field:        
+      1.6.2.1 Must only accept numeric characters.  
+      1.6.2.2 Must follow a specific format one symbol 6 digits.  
+      1.6.3. Phone Number field:       
+      1.6.3.1 Must follow a specific format ((XXX) XXX-XXXX).  
+      1.6.3.2. Must only accept numeric input.  
 
-1.10. **Submission Rules:**  
-    1.10.1. The form should not be submitted unless all required fields are filled and valid.  
+1.7. **Submission Rules:**  
+    1.7.1. The form should not be submitted unless all required fields are filled and valid.  
 
-1.11. **Pop-Up Message:**  
-    1.11.1. Error messages should disappear after a maximum of 10 seconds.  
+1.8. **Pop-Up Message:**  
+    1.8.1. Error messages should disappear after a maximum of 10 seconds.  
 
 ---
 
