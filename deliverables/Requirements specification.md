@@ -4,7 +4,6 @@
 
 #### Functionality
 1. **Main Object:** An HTML form with the following sections:
-
         1.1. Name + text input 
         1.2. Surname + text input
         1.3. Driver ID + text input
