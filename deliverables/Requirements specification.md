@@ -30,7 +30,7 @@
 1.6. **Responsiveness:**  
    1.6.1. The page must be responsive, ensuring proper display on all devices (smartphones, tablets, desktops).
 
-1.7. **Browser Compatibility:**
+1.7. **Browser Compatibility:**  
        1.7.1. The form must work across all major browsers (Chrome, Firefox, Safari, and Edge).
 
 ---
@@ -45,7 +45,7 @@
       1.9.1 Name and Surname fields:   
       1.9.1.1 Must only accept alphabetic characters.  
       1.9.1.2. Must not exceed 50 characters.  
-   
+      
       1.9.2. Driver ID field:  
       1.9.2.1 Must only accept numeric characters.  
       1.9.2.2 Must follow a specific format one symbol 6 digits.
