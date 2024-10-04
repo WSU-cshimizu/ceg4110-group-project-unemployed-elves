@@ -81,13 +81,13 @@
 
 #### Constraints
 
-3. **Field Validations:**
-   - 3.1. Driver ID:
-     - 3.1.1. Must be numeric (e.g., 6 digits).
+2.3. **Field Validations:**  
+     2.3.1. Driver ID:  
+     2.3.1.1. Must be numeric (one symbol + 6 digits).   
    
-   - 3.2. Date and Time of Issue:
-     - 3.2.1. Must follow the format MM/DD/YYYY for the date and HH/MM PM/AM for the time.
-     - 3.2.2. Date must not be in the past (today’s date or future dates only).
+ 2.3.2. Date and Time of Issue:  
+      2.3.2.1. Must follow the format MM/DD/YYYY for the date and HH/MM PM/AM for the time.  
+      2.3.2.2. Date must not be in the past (today’s date or future dates only).  
    
    - 3.3. Issue Type:
      - 3.3.1. Must select one option from the dropdown.
