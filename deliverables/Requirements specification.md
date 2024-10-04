@@ -1,59 +1,58 @@
 # Requirements Specification
 
-### First Page: User Authentication
+1. ### First Page: User Authentication  
 
 #### Functionality
-1. **Main Object:** An HTML form with the following sections:  
-        1.1. Name + text input   
-        1.2. Surname + text input  
-        1.3. Driver ID + text input  
-        1.4. Phone Number + text input  
-        1.5. Submit button  
+1.1. **Main Object:** An HTML form with the following sections:  
+        1.1.1. Name + text input   
+        1.1.2. Surname + text input  
+        1.1.3. Driver ID + text input  
+        1.1.4. Phone Number + text input  
+        1.1.5. Submit button  
 
-2. **User-Friendly Feature:**  
-    2.1. Each input field will include an example (placeholder) in a slightly transparent manner to guide the user on how to enter the information correctly.  
+1.2. **User-Friendly Feature:**  
+    1.2.1. Each input field will include an example (placeholder) in a slightly transparent manner to guide the user on how to enter the information correctly.  
 
-3. **User Requirements:**  Users must enter:  
-      3.1. Name  
-      3.2. Surname  
-      3.3. Driver ID  
-      3.4. Phone Number  
+1.3. **User Requirements:**  Users must enter:  
+      1.3.1. Name  
+      1.3.2. Surname  
+      1.3.3. Driver ID  
+      1.3.4. Phone Number  
 
-4. **Validation:**     
-   4.1. The provided information will be verified against the pre-loaded database of user details.  
-   4.2. If the data matches, the user will proceed to the next page.  
-   4.3. If there is an error, a pop-up will indicate which field is incorrect.  
+1.4. **Validation:**     
+   1.4.1. The provided information will be verified against the pre-loaded database of user details.  
+   1.4.2. If the data matches, the user will proceed to the next page.  
+   1.4.3. If there is an error, a pop-up will indicate which field is incorrect.  
 
-5. **Concurrent Access:**  
+1.5. **Concurrent Access:**  
    5.1. The form should function properly when two or more users attempt to log in simultaneously.
 
-6. **Responsiveness:**  
-   6.1. The page must be responsive, ensuring proper display on all devices (smartphones, tablets, desktops).
+1.6. **Responsiveness:**  
+   1.6.1. The page must be responsive, ensuring proper display on all devices (smartphones, tablets, desktops).
 
-7. **Browser Compatibility:**
-       7.1. The form must work across all major browsers (Chrome, Firefox, Safari, and Edge).
+1.7. **Browser Compatibility:**
+       1.7.1. The form must work across all major browsers (Chrome, Firefox, Safari, and Edge).
 
 ---
 
-### First Page: User Authentication
 
 #### Constraints
 
-8. **User Registration:**  
+1.8. **User Registration:**    
     8.1. Users (drivers) will not register manually; all information will be pre-loaded into the database.  
 
-9. **Field Validations:**  
-      9.1. Name and Surname fields:   
-      9.1.1. Must only accept alphabetic characters.  
-      9.1.2. Must not exceed 50 characters.  
+1.9. **Field Validations:**  
+      1.9.1 Name and Surname fields:   
+      1.9.1.1 Must only accept alphabetic characters.  
+      1.9.1.2. Must not exceed 50 characters.  
    
-      9.2. Driver ID field:  
-      9.2.1. Must only accept numeric characters.  
-      9.2.1. Must follow a specific format one symbol 6 digits.
+      1.9.2. Driver ID field:  
+      1.9.2.1 Must only accept numeric characters.  
+      1.9.2.2 Must follow a specific format one symbol 6 digits.
 
-      9.3. Phone Number field:  
-      9.3.1. Must follow a specific format ((XXX) XXX-XXXX).  
-      9.3.2. Must only accept numeric input.  
+      1.9.3. Phone Number field:  
+      1.9.3.1 Must follow a specific format ((XXX) XXX-XXXX).  
+      1.9.3.2. Must only accept numeric input.  
 
 10. **Submission Rules:**  
     10.1. The form should not be submitted unless all required fields are filled and valid.  
