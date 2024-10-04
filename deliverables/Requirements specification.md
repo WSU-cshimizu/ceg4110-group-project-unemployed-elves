@@ -60,18 +60,17 @@
 
 ---
 
-### Second Page: Van Issue Documenting Form
+2. ### Second Page: Van Issue Documenting Form
 
 #### Functionality
 
-1. **Main Object:**
-   -  An HTML form with the following sections:
-     - 1.1. Driver ID + text input
-     - 1.2. Date and Time of Issue + numeric input
-     - 1.3. Issue Type + dropdown list with predefined options and an "Other" option
-     - 1.4. Issue Description + text input
-     - 1.5. Status + dropdown list (New, In-Progress, Resolved)
-     - 1.6. Submit button
+2. 1. **Main Object:** An HTML form with the following sections:  
+      2.1.1. Driver ID + text input  
+      2.1.2. Date and Time of Issue + numeric input  
+      2.1.3. Issue Type + dropdown list with predefined options and an "Other" option  
+      2.1.4. Issue Description + text input  
+       2.1.5. Status + dropdown list (New, In-Progress, Resolved)  
+       2.1.6. Submit button  
 
 2. **User-Friendly Features:**
    - 2.1. Each field will include an example (placeholder) to guide users.
