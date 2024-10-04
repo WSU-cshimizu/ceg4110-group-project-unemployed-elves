@@ -25,7 +25,7 @@
 
 - **Field Validations:**
   - **Name** and **Surname:** Must only accept alphabetic characters and should not be more than 50 characters.
-  - **Driver ID:** Must be numeric and conform to a specific format (e.g., 6 digits).
+  - **Driver ID:**  One symbol + 6 digits
   - **Phone Number:** Must follow a valid format (will be (XXX) XXX-XXXX) and must be numeric.
 
 - **Submission Rules:** Users must not be allowed to submit the form unless all required fields are filled out and valid.
@@ -58,8 +58,7 @@
 ### CONSTRAINTS (IN PROGRESS)
 
 ### Field Validations
-- **Driver ID:**
- ?? numeric 6 digit or what?
+- **Driver ID:** One symbol + 6 digits
 - **Date and Time of Issue:**
   - Must follow the format MM/DD/YYYY for the date and HH/MM PM/AM for the time.
   - Date must not be in the past (should be today's date or a future date).
