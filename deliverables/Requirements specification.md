@@ -5,12 +5,12 @@
 #### Functionality
 
 1. **Main Object:**
-   -  An HTML form with the following sections:
-     - 1.1. Name + text input
-     - 1.2. Surname + text input
-     - 1.3. Driver ID + text input
-     - 1.4. Phone Number + text input
-     - 1.5. Submit button
+     An HTML form with the following sections:
+      1.1. Name + text input
+      1.2. Surname + text input
+      1.3. Driver ID + text input
+      1.4. Phone Number + text input
+      1.5. Submit button
 
 2. **User-Friendly Feature:**
    - 2.1. Each input field will include an example (placeholder) in a slightly transparent manner to guide the user on how to enter the information correctly.
