@@ -1,6 +1,6 @@
 # Requirements Specification
 
-0. ## General requirements: 
+## General requirements for both pages: 
 0.1. **Concurrent Access:**  Forms should function properly when two or more users are logging in/filling out the form simultaneously.  
 0.2. **Responsiveness:** Pages must be responsive and display correctly on all devices (smartphones, tablets, desktops).  
 0.3. **Browser Compatibility:**  Forms must work across all major browsers (Chrome, Firefox, Safari, and Edge).  
