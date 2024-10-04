@@ -64,7 +64,7 @@
 
 #### Functionality
 
-2. 1. **Main Object:** An HTML form with the following sections:  
+2.1. **Main Object:** An HTML form with the following sections:  
       2.1.1. Driver ID + text input  
       2.1.2. Date and Time of Issue + numeric input  
       2.1.3. Issue Type + dropdown list with predefined options and an "Other" option  
@@ -72,10 +72,10 @@
        2.1.5. Status + dropdown list (New, In-Progress, Resolved)  
        2.1.6. Submit button  
 
-2. **User-Friendly Features:**
-   - 2.1. Each field will include an example (placeholder) to guide users.
-   - 2.2. Hovering over fields will display additional information.
-   - 2.3. The Date and Time field will be pre-filled with the current date and time but can be modified by the user.
+2.2 **User-Friendly Features:**  
+   2.2.1. Each field will include an example (placeholder) to guide users.  
+   2.2.2. Hovering over fields will display additional information.  
+   2.2.3. The Date and Time field will be pre-filled with the current date and time but can be modified by the user.  
 
 ### Second Page: Van Issue Documenting Form
 
