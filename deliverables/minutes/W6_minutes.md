@@ -61,3 +61,36 @@ These are generally distilled from the notes. Essentially, these are "by the nex
 After the notes and action items have been pushed, each person should take a time to review them. If everything is agreeable, push a single commit with your name as a signature. 
 * Gregory Terrell
 * Sameer Baig
+
+## Meeting #4 - Thursday 10/3
+
+### Administrivia
+* Time: 11:00 AM - 12:20 PM
+* Location: Fawcett Hall 204
+
+### Agenda
+* Discuss differences between MVS/MVD and Designs and Requirements
+* Make changes to timeline
+* Assign inital tasks regarding actual project and see what progress has been made
+
+### Notes
+* Talked with Cogan regarding the differences in things we turn in
+* Discussion about how we should be turning in MVS/MVD, and they can change over the course of the semester.
+* Making diagrams of the UI layout
+
+### Action Items
+* Mariia
+  * Make changes to MVS
+* Greg
+  * Make changes to Timeline
+* Dipesh
+  * Work on UI layout diagrams
+* Sameer
+  * Work on researching MongoDB implementation
+
+### Signatures
+After the notes and action items have been pushed, each person should take a time to review them. If everything is agreeable, push a single commit with your name as a signature. 
+*
+*
+*
+*
