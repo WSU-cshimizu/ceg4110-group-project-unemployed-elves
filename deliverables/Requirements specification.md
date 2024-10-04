@@ -13,8 +13,8 @@
 1.2. **User-Friendly Feature:**  
     1.2.1. Each input field will include an example (placeholder) in a slightly transparent manner to guide the user on how to enter the information correctly.  
 
-1.3. **User Requirements:**  Users must enter:  
-      1.3.1. Name  
+1.3. **User Requirements:**  Users must enter:   
+      1.3.1. Name    
       1.3.2. Surname  
       1.3.3. Driver ID  
       1.3.4. Phone Number  
@@ -39,7 +39,7 @@
 #### Constraints
 
 1.8. **User Registration:**    
-    8.1. Users (drivers) will not register manually; all information will be pre-loaded into the database.  
+    1.8.1. Users (drivers) will not register manually; all information will be pre-loaded into the database.  
 
 1.9. **Field Validations:**  
       1.9.1 Name and Surname fields:   
@@ -54,11 +54,11 @@
       1.9.3.1 Must follow a specific format ((XXX) XXX-XXXX).  
       1.9.3.2. Must only accept numeric input.  
 
-10. **Submission Rules:**  
-    10.1. The form should not be submitted unless all required fields are filled and valid.  
+1.10. **Submission Rules:**  
+    1.10.1. The form should not be submitted unless all required fields are filled and valid.  
 
-11. **Pop-Up Message:**  
-    11.1. Error messages should disappear after a maximum of 10 seconds.  
+1.11. **Pop-Up Message:**  
+    1.11.1. Error messages should disappear after a maximum of 10 seconds.  
 
 ---
 
