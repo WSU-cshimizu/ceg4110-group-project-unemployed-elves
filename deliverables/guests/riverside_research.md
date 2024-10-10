@@ -1,5 +1,5 @@
 # Guest Lecture Response
-* **Guest Lecturer:** `Tom Inbeck`
+* **Guest Lecturer:** `Tom Irlbeck`
 * **Company:** `Riverside Research`
 * **Date:** `Thursday 10/10/2024`
 
