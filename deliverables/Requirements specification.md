@@ -1,30 +1,30 @@
 # Requirements Specification
 
-0. ## General requirements for both pages: 
-0.1. **Concurrent Access:**  Forms should function properly when two or more users are logging in/filling out the form simultaneously.  
-0.2. **Responsiveness:** Pages must be responsive and display correctly on all devices (smartphones, tablets, desktops).  
-0.3. **Browser Compatibility:**  Forms must work across all major browsers (Chrome, Firefox, Safari, and Edge).  
+R.0. ## General requirements for both pages: 
+R.0.1. **Concurrent Access:**  Forms should function properly when two or more users are logging in/filling out the form simultaneously.  
+R.0.2. **Responsiveness:** Pages must be responsive and display correctly on all devices (smartphones, tablets, desktops).  
+R.0.3. **Browser Compatibility:**  Forms must work across all major browsers (Chrome, Firefox, Safari, and Edge).  
 
 1. ## First Page: User Authentication  
 
 ### Functionality
-1.1. **Main Object:** An HTML form with the following sections:  
-        1.1.1. Name + text input   
-        1.1.2. Surname + text input  
+R.1.1. **Main Object:** An HTML form with the following sections:  
+        1.1.1. First Name + text input   
+        1.1.2. Last Name   + text input  
         1.1.3. Driver ID + text input  
         1.1.4. Phone Number + text input  
         1.1.5. Submit button  
 
-1.2. **User-Friendly Feature:**  
+R.1.2. **User-Friendly Feature:**  
     1.2.1. Each input field will include an example (placeholder) in a slightly transparent manner to guide the user on how to enter the information correctly.  
 
-1.3. **User Requirements:**  Users are required to enter:   
-      Name    
-      Surname  
+R.1.3. **User Requirements:**  Users are required to enter:   
+      First Name    
+      Last Name  
       Driver ID  
       Phone Number  
 
-1.4. **Validation:**     
+R.1.4. **Validation:**     
    1.4.1. The provided information will be verified against the pre-loaded database of user details.  
    1.4.2. If the data matches, the user will proceed to the next page.  
    1.4.3. If there is an error, a pop-up will indicate which field is incorrect.  
@@ -35,11 +35,11 @@
 
 ### Constraints
 
-1.5. **User Registration:**    
+R.1.5. **User Registration:**    
     1.5.1. Users (drivers) will not register manually; all information will be pre-loaded into the database.  
 
-1.6. **Field Validations:**  
-      1.6.1 Name and Surname fields:   
+R.1.6. **Field Validations:**  
+      1.6.1 First Name and Surname fields:   
       1.6.1.1 Must only accept alphabetic characters.  
       1.6.1.2. Must not exceed 50 characters.  
       1.6.2. Driver ID field:        
@@ -49,10 +49,10 @@
       1.6.3.1 Must follow a specific format ((XXX) XXX-XXXX).  
       1.6.3.2. Must only accept numeric input.  
 
-1.7. **Submission Rules:**  
+R.1.7. **Submission Rules:**  
     1.7.1. The form should not be submitted unless all required fields are filled and valid.  
 
-1.8. **Pop-Up Message:**  
+R.1.8. **Pop-Up Message:**  
     1.8.1. Error messages should disappear after a maximum of 10 seconds.  
 
 ---
