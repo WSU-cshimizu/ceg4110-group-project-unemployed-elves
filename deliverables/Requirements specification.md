@@ -79,20 +79,25 @@ R. 2.1. **Main Object:** An HTML form that must contains the following sections:
 
 2.3. **Field Validations:**  
 
- 2.3.2. Date and Time of Issue:  
-      2.3.2.1. Must follow the format MM/DD/YYYY for the date and HH/MM PM/AM for the time.  
-      2.3.2.2. Date must not be in the past (today’s date or future dates only).       
-2.3.3. Issue Type:  
-     2.3.3.1. Must select one or more option from the check-list.  
-     2.3.3.2. If "Other" is selected, an additional input field should appear for further details.  
-     2.3.3.3. Additional input must not be empty.  
-2.3.4. Issue Description:  
-     2.3.4.1. Must not exceed 400 characters.  
-     2.3.4.2. Must not be empty.  
-2.3.5 VIN + text input  
-     2.3.5.1. Must be exactly 17 characters long.
-     2.3.5.2. Should only contain alphanumeric characters (A-Z, 0-9). No special characters or spaces are allowed.
-
+2.3.1. Date and Time of Issue:  
+      2.3.1.1. Must follow the format MM/DD/YYYY for the date and HH/MM PM/AM for the time.  
+      2.3.1.2. Date must not be in the past (today’s date or future dates only).       
+2.3.2. Issue Type:  
+     2.3.2.1. Must select one or more option from the check-list.  
+     2.3.2.2. If "Other" is selected, an additional input field should appear for further details.  
+     2.3.2.3. Additional input must not be empty.  
+2.3.3. Issue Description:  
+     2.3.3.1. Must not exceed 400 characters.  
+     2.3.3.2. Must not be empty.  
+2.3.4. VIN + text input  
+     2.3.4.1. Must be exactly 17 characters long. 
+     2.3.4.2. Should only contain alphanumeric characters (A-Z, 0-9). No special characters or spaces are allowed.  
+2.3.5. License plate + text input  
+     2.3.5.1. Should not contain special characters, only letters and numbers.
+     2.3.5.2. Not more than 7 digits long.
+2.3.6. License State + dropdown  
+     2.3.6.1. Must select a state from the dropdown menu.
+     
 2.4. **Submission Rules: (Submit button)**  
    2.4.1. The form should not be submitted unless all required fields are valid.  
    2.4.2. The Submit button must remain disabled until all fields pass validation.  
