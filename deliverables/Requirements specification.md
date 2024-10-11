@@ -63,7 +63,7 @@ R.1.8. **Pop-Up Message:**
 
 R. 2.1. **Main Object:** An HTML form that must contains the following sections:  
       2.1.1. Date and Time of Issue + numeric input  
-      2.1.3. Issue Type + check-list with the most common issue types
+      2.1.3. Issue Type + check-list with the most common issue types  
       2.1.4. Issue Description + text input  
       2.1.5. VIN + text input  
       2.1.6. License plate + text input  
