@@ -93,10 +93,10 @@ R. 2.1. **Main Object:** An HTML form that must contains the following sections:
      2.3.4.1. Must be exactly 17 characters long. 
      2.3.4.2. Should only contain alphanumeric characters (A-Z, 0-9). No special characters or spaces are allowed.  
 2.3.5. License plate + text input  
-     2.3.5.1. Should not contain special characters, only letters and numbers.
-     2.3.5.2. Not more than 7 digits long.
+     2.3.5.1. Should not contain special characters, only letters and numbers.  
+     2.3.5.2. Not more than 7 digits long.  
 2.3.6. License State + dropdown  
-     2.3.6.1. Must select a state from the dropdown menu.
+     2.3.6.1. Must select a state from the dropdown menu.  
      
 2.4. **Submission Rules: (Submit button)**  
    2.4.1. The form should not be submitted unless all required fields are valid.  
