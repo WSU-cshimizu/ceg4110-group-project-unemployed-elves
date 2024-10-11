@@ -39,7 +39,7 @@ R.1.5. **User Registration:**
     1.5.1. Users (drivers) will not register manually; all information will be pre-loaded into the database.  
 
 R.1.6. **Field Validations:**  
-      1.6.1 First Name and Surname fields:   
+      1.6.1 First Name and Last Name fields:   
       1.6.1.1 Must only accept alphabetic characters.  
       1.6.1.2. Must not exceed 50 characters.  
       1.6.2. Driver ID field:        
@@ -61,13 +61,13 @@ R.1.8. **Pop-Up Message:**
 
 ### Functionality
 
-R. 2.1. **Main Object:** An HTML form with the following sections:  
+R. 2.1. **Main Object:** An HTML form that must contains the following sections:  
       2.1.1. Date and Time of Issue + numeric input  
       2.1.3. Issue Type + check-list with the most common issue types
       2.1.4. Issue Description + text input  
-      2.1.5. VIN + text input
-      2.1.6. License plate + text input
-      2.1.7. License state + text input
+      2.1.5. VIN + text input  
+      2.1.6. License plate + text input  
+      2.1.7. License state + text input  
       2.1.6. Submit button  
 
 2.2 **User-Friendly Features:**  
@@ -81,17 +81,14 @@ R. 2.1. **Main Object:** An HTML form with the following sections:
 
  2.3.2. Date and Time of Issue:  
       2.3.2.1. Must follow the format MM/DD/YYYY for the date and HH/MM PM/AM for the time.  
-      2.3.2.2. Date must not be in the past (today’s date or future dates only).   
-   
+      2.3.2.2. Date must not be in the past (today’s date or future dates only).       
 2.3.3. Issue Type:  
-     2.3.3.1. Must select one option from the dropdown.  
+     2.3.3.1. Must select one or more option from the check-list.
      2.3.3.2. If "Other" is selected, an additional input field should appear for further details.  
      2.3.3.3. Additional input must not be empty.  
-     2.3.4. Issue Description:  
+2.3.4. Issue Description:  
      2.3.4.1. Must not exceed 400 characters.  
      2.3.4.2. Must not be empty.  
-     2.3.5. Status:  
-     2.3.5.1. Must select one option from the dropdown (New, In-Progress, Resolved). 
 
 2.4. **Submission Rules:**  
    2.4.1. The form should not be submitted unless all required fields are valid.  
