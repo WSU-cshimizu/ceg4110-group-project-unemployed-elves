@@ -27,8 +27,7 @@ Week 7
 #### Classwork
   * Everyone: Let's try to draw the actual data-flow diagram for the first login page.
       * Everyone: Draw and discuss: input/output as slanted rectangles, action-based-on-decision as rhombuses.
-        https://media.discordapp.net/attachments/1278092330376892429/1293242226054267001/IMG_1105.jpg?ex=6709f4ed&is=6708a36d&hm=20c0907006d949a29af85e86e9dac37621f58bfc734fcf9e8919bf05013d7dd5&=&format=webp&width=1053&height=1404
-
+     
 ### Action Items
 * Mariia
   * Fix in requirements those items: Name -> First Name, remove DriverID from second form, add VIN and license plate, and check type of issue type to checklist. 
