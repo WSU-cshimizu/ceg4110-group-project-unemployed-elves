@@ -1,11 +1,11 @@
 # Requirements Specification
 
-R.0.  ## General requirements for both pages:   
+## R.0.   General requirements for both pages:   
 R.0.1. **Concurrent Access:**  Forms should function properly when two or more users are logging in/filling out the form simultaneously.  
 R.0.2. **Responsiveness:** Pages must be responsive and display correctly on all devices (smartphones, tablets, desktops).  
 R.0.3. **Browser Compatibility:**  Forms must work across all major browsers (Chrome, Firefox, Safari, and Edge).  
 
-1. ## First Page: User Authentication  
+## R.1. First Page: User Authentication  
 
 ### Functionality
 R.1.1. **Main Object:** An HTML form with the following sections:  
@@ -57,11 +57,11 @@ R.1.8. **Pop-Up Message:**
 
 ---
 
-2. ## Second Page: Van Issue Documenting Form
+## R.2. Second Page: Van Issue Documenting Form
 
 ### Functionality
 
-2.1. **Main Object:** An HTML form with the following sections:  
+R. 2.1. **Main Object:** An HTML form with the following sections:  
       2.1.1. Driver ID + text input  
       2.1.2. Date and Time of Issue + numeric input  
       2.1.3. Issue Type + dropdown list with predefined options and an "Other" option  
