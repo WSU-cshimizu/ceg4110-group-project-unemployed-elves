@@ -83,13 +83,16 @@ R. 2.1. **Main Object:** An HTML form that must contains the following sections:
       2.3.2.1. Must follow the format MM/DD/YYYY for the date and HH/MM PM/AM for the time.  
       2.3.2.2. Date must not be in the past (today’s date or future dates only).       
 2.3.3. Issue Type:  
-     2.3.3.1. Must select one or more option from the check-list.
+     2.3.3.1. Must select one or more option from the check-list.  
      2.3.3.2. If "Other" is selected, an additional input field should appear for further details.  
      2.3.3.3. Additional input must not be empty.  
 2.3.4. Issue Description:  
      2.3.4.1. Must not exceed 400 characters.  
      2.3.4.2. Must not be empty.  
+2.3.5 VIN + text input  
+     2.3.5.1. Must be exactly 17 characters long.
+     2.3.5.2. Should only contain alphanumeric characters (A-Z, 0-9). No special characters or spaces are allowed.
 
-2.4. **Submission Rules:**  
+2.4. **Submission Rules: (Submit button)**  
    2.4.1. The form should not be submitted unless all required fields are valid.  
    2.4.2. The Submit button must remain disabled until all fields pass validation.  
