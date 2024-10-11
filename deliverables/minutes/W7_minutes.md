@@ -22,12 +22,12 @@ Week 7
   * Greg, Dipesh: I think we should rename "Name" to "First Name."
   * Greg: I also suggest adding VIN, license plate, and license state fields, as well as removing "Issue Status." "Issue Type" should be a checklist according to the Amazon DVIC.
   * I also suggest removing "Driver ID" from the second form for clarity.
-  * Mariia: Agree.
+  * Everyone: Agree.
 
 #### Classwork
   * Everyone: Let's try to draw the actual data-flow diagram for the first login page.
       * Everyone: Draw and discuss: input/output as slanted rectangles, action-based-on-decision as rhombuses.
-      * 
+      * https://media.discordapp.net/attachments/1278092330376892429/1293242226054267001/IMG_1105.jpg?ex=6709f4ed&is=6708a36d&hm=20c0907006d949a29af85e86e9dac37621f58bfc734fcf9e8919bf05013d7dd5&=&format=webp&width=1053&height=1404
 
 ### Action Items
 * Mariia
