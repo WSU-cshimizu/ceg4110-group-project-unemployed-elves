@@ -34,5 +34,13 @@
 * The second UI page is a data form where the user identifies the van used and any potential issues that need addressing. These forms are stored onto a database to keep a record needed to ensure safety and accountability for both the employees and managers.
 
 ### General Process
-* asda
+* The user inputs all relevant information into the form
+* Once the user feels satisfied with their work, the button is pressed to submit the data
+* The backend scans the data and ensures everything entered has the correct formatting
+* If the data is not formatted correctly, an error message is displayed to the user
+* If the data is formatted correctly, then the backend processes the information, creating queries to store the data
+* The backend sends the queries to the DBMS
+* The DBMS processes the received queries
+* The DBMS sends a response indicating if the queries were successful
+* The DBMS response is then displayed to the user
 * ![UI_Page1_Data_Flow](https://github.com/user-attachments/assets/542b8b89-ceaa-49d5-b745-c60b8e793bda)
