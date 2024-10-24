@@ -21,6 +21,6 @@
 * The UI needs to have four text input components and a submission button.
 * The design must be clean and organized.
 * It's recommended to use Amazon-based color schemes to match the theme of the application.
-* ![UI_1_Wireframe](https://github.com/user-attachments/assets/de808dc9-c56d-4acd-8424-65423ddd1b95)
+* ![UI_1_Wireframe](https://github.com/user-attachments/assets/a2a99a94-267e-41e7-8d73-b72ce78e07ad)
 ---
 ## R.2. Second Page: Van Issue Documenting Form
