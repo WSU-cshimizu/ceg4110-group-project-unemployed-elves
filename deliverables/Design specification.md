@@ -4,9 +4,15 @@
 
 ## R.1. First Page: User Authentication
 ### Description
-* This is the first UI page the user interacts with.
+* The first UI page is a user interface that facilitates authentication attempts by providing text prompts for the user to enter in their account information.
+
+### General Process
 * The user is prompted to enter their account information to login.
 * After inputting their data, the submit button is selected, prompting an authentication attempt.
+* The backend processes the inputted text, converting it into a DBMS compatible query.
+* The query is then sent to the database.
+* The database responds after processing the received query.
+* The response is analyzed to see if a match was found based on the user enterred information.
 * If the authentication attempt is successful, the user gains access to the second page.
 * If the authentication attempt fails, the first UI page is updated with an error message
   * The error message notifies the user the entered information did not match the database search.
