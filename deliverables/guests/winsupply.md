@@ -4,7 +4,7 @@
 * **Date:** `Thursday 10/24/2024`
 
 ## Pertinent Questions
-* **Question 1**: It was mentioned that there is a point system that measures performance based on the number of user stories completed. Is there any benefit of being in first (having the most points) or any drawback from being in last? Has anyone ever been fired because they didn't meet the point satisfactory point threshold?
+* **Question 1**: It was mentioned that there is a point system that measures performance based on the number of user stories completed. Is there any benefit of being in first (having the most points) or any drawback from being in last? Has anyone ever been fired because they didn't have enough points?
 * **Question 2**: How often do developers go on call or have to work outside the normal 9-5 working hours? Is this common for junior developers? Has anything disasterous occured in the past from not having people on call during project launches?
 
 
