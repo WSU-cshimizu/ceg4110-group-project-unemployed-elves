@@ -16,5 +16,11 @@
 * If the authentication attempt is successful, the user gains access to the second page.
 * If the authentication attempt fails, the first UI page is updated with an error message
   * The error message notifies the user the entered information did not match the database search.
+ 
+### UI Mockup
+* The UI needs to have four text input components and a submission button.
+* The design must be clean and organized.
+* It's recommended to use Amazon-based color schemes to match the theme of the application.
+* ![UI_1_Wireframe](https://github.com/user-attachments/assets/d8687bf6-dc39-4813-8f1c-d1c65b9c153d)
 ---
 ## R.2. Second Page: Van Issue Documenting Form
