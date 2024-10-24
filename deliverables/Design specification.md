@@ -34,4 +34,5 @@
 * The second UI page is a data form where the user identifies the van used and any potential issues that need addressing. These forms are stored onto a database to keep a record needed to ensure safety and accountability for both the employees and managers.
 
 ### General Process
-* 
+* asda
+* ![UI_Page1_Data_Flow](https://github.com/user-attachments/assets/47c7d614-1201-41e7-adc4-a2c8c93a01af)
