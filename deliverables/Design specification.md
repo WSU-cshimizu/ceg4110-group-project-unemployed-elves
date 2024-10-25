@@ -47,11 +47,11 @@
 
  ## Data-flow diagrams
 ## R.1. First Page: User Authentication
-![image](https://github.com/user-attachments/assets/2d5400e7-77ea-49fe-841b-886e61a51871)
+![image](https://github.com/user-attachments/assets/4323edb5-87c5-4ca3-8ecf-4dba489a6936)
 ## R.2. Second Page: Van Issue Documenting Form
 ![image](https://github.com/user-attachments/assets/33409588-ec55-47ec-9e7d-451c3765f40d)
 
- ## Swim-lane diagram
+ ## Swim-lane diagrams
 ## R.1. First Page: User Authentication
 ![image](https://github.com/user-attachments/assets/4c3b5288-b236-4799-a497-2b72cdf2eb2c)
 ## R.2. Second Page: Van Issue Documenting Form
