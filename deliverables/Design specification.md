@@ -51,4 +51,10 @@
 ## R.2. Second Page: Van Issue Documenting Form
 ![image](https://github.com/user-attachments/assets/33409588-ec55-47ec-9e7d-451c3765f40d)
 
+ ## Swim-lane diagram
+## R.1. First Page: User Authentication
+![image](https://github.com/user-attachments/assets/4c3b5288-b236-4799-a497-2b72cdf2eb2c)
+## R.2. Second Page: Van Issue Documenting Form
+![image](https://github.com/user-attachments/assets/2b9bf152-14d6-436d-ac74-d451bf0b5b22)
+
 
