@@ -44,3 +44,11 @@
 * The DBMS sends a response indicating if the queries were successful
 * The DBMS response is then displayed to the user
 * ![UI_Page1_Data_Flow](https://github.com/user-attachments/assets/542b8b89-ceaa-49d5-b745-c60b8e793bda)
+
+ ## Data-flow diagrams
+## R.1. First Page: User Authentication
+![image](https://github.com/user-attachments/assets/2d5400e7-77ea-49fe-841b-886e61a51871)
+## R.2. Second Page: Van Issue Documenting Form
+![image](https://github.com/user-attachments/assets/33409588-ec55-47ec-9e7d-451c3765f40d)
+
+
