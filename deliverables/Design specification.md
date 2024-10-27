@@ -6,6 +6,8 @@
   * Concurrent access: Users can authenticate into the system and submit form data at the same time without data loss or crashes.
   * Responsiveness: The ui pages can appropriately resize components depending on the resolution of the accessing device while maintaining the same functionality.
   * Web browser compatibility: The web application can interface with the major web browsers without creating broken layouts or impairing functionality.
+### General UML Diagram
+![UML_Van_Documentation](https://github.com/user-attachments/assets/afae39ab-b5f0-46ef-a1c6-bdc3e37f9c1b)
 ---
 ## R.1. First Page: User Authentication
 ### Description
