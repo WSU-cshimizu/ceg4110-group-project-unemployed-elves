@@ -47,6 +47,6 @@
 * The DBMS sends a response indicating if the queries were successful
 * The DBMS response is then displayed to the user
 ### Data-flow Diagram
-![image](https://github.com/user-attachments/assets/33409588-ec55-47ec-9e7d-451c3765f40d
+![image](https://github.com/user-attachments/assets/33409588-ec55-47ec-9e7d-451c3765f40d)
 ### Swim-lane Diagram
 ![image](https://github.com/user-attachments/assets/2b9bf152-14d6-436d-ac74-d451bf0b5b22)
