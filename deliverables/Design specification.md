@@ -21,7 +21,10 @@
 * If the authentication attempt is successful, the user gains access to the second page.
 * If the authentication attempt fails, the first UI page is updated with an error message
   * The error message notifies the user the entered information did not match the database search.
-* <INSERT DATA FLOW DIAGRAM>
+### Data-flow Diagram
+![image](https://github.com/user-attachments/assets/4323edb5-87c5-4ca3-8ecf-4dba489a6936)
+### Swim-lane Diagram
+![image](https://github.com/user-attachments/assets/4c3b5288-b236-4799-a497-2b72cdf2eb2c)
  
 ### UI Mockup
 * The UI needs to have four text input components and a submission button.
@@ -43,18 +46,7 @@
 * The DBMS processes the received queries
 * The DBMS sends a response indicating if the queries were successful
 * The DBMS response is then displayed to the user
-* ![UI_Page1_Data_Flow](https://github.com/user-attachments/assets/542b8b89-ceaa-49d5-b745-c60b8e793bda)
-
- ## Data-flow diagrams
-## R.1. First Page: User Authentication
-![image](https://github.com/user-attachments/assets/4323edb5-87c5-4ca3-8ecf-4dba489a6936)
-## R.2. Second Page: Van Issue Documenting Form
-![image](https://github.com/user-attachments/assets/33409588-ec55-47ec-9e7d-451c3765f40d)
-
- ## Swim-lane diagrams
-## R.1. First Page: User Authentication
-![image](https://github.com/user-attachments/assets/4c3b5288-b236-4799-a497-2b72cdf2eb2c)
-## R.2. Second Page: Van Issue Documenting Form
+### Data-flow Diagram
+![image](https://github.com/user-attachments/assets/33409588-ec55-47ec-9e7d-451c3765f40d
+### Swim-lane Diagram
 ![image](https://github.com/user-attachments/assets/2b9bf152-14d6-436d-ac74-d451bf0b5b22)
-
-
