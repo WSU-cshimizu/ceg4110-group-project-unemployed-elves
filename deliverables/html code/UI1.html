@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Authentication</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 100%;
+      max-width: 400px;
+      margin: 100px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    label {
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    input[type="text"], input[type="tel"] {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    input[type="text"]::placeholder, input[type="tel"]::placeholder {
+      color: rgba(0, 0, 0, 0.3);
+    }
+    .submit-btn {
+      padding: 10px;
+      background-color: #28a745;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .submit-btn:hover {
+      background-color: #218838;
+    }
+    .error-message {
+      color: red;
+      display: none;
+    }
+
+    /* General Styles for Desktop */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 500px; /* Adjusted width */
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="tel"], input[type="datetime-local"], textarea, select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"]::placeholder, input[type="tel"]::placeholder, input[type="datetime-local"]::placeholder, textarea::placeholder {
+    color: rgba(0, 0, 0, 0.3);
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .submit-btn {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    display: none;
+  }
+  
+  /* Media Queries */
+  
+  /* Tablet Mode */
+  @media (max-width: 768px) {
+    .container {
+      max-width: 100%;
+      padding: 15px;
+      margin: 20px;
+    }
+    
+    h2 {
+      font-size: 1.8em;
+    }
+  
+    input[type="text"], input[type="tel"], input[type="datetime-local"], textarea, select {
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    .submit-btn {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  
+  /* Mobile Mode */
+  @media (max-width: 480px) {
+    .container {
+      max-width: 100%;
+      padding: 10px;
+      margin: 10px;
+    }
+  
+    h2 {
+      font-size: 1.5em;
+    }
+  
+    input[type="text"], input[type="tel"], input[type="datetime-local"], textarea, select {
+      padding: 6px;
+      font-size: 12px;
+    }
+  
+    .submit-btn {
+      font-size: 12px;
+      padding: 6px;
+    }
+  }
+  
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>User Authentication</h2>
+    <form id="authForm">
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="First Name" maxlength="10" required>
+
+      <label for="surname">Surname</label>
+      <input type="text" id="surname" placeholder="Surname" maxlength="50" required>
+
+      <label for="driverID">Driver ID</label>
+      <input type="text" id="driverID" placeholder="123456" maxlength="10" >
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" placeholder="(XXX) XXX-XXXX" maxlength="10" >
+
+      <div class="error-message" id="errorMessage"></div>
+
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
