@@ -38,6 +38,7 @@ After the notes and action items have been pushed, each person should take a tim
 * Mariia
 * Sameer Baig
 * Greg Terrell
+* Dipesh Chandra Jha
 
 ##  Thursday 10/24
 
