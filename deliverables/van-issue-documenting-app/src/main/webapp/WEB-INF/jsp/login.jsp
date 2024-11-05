@@ -182,21 +182,21 @@ body {
 <center>  <div class="container">
     <h2>User Authentication</h2>
 
- <font color="red">${errorMessage}</font>
-
 <form id="authForm" action="/login" method="post">
     <label for="name">First name</label>
-    <input type="text" name="name" placeholder="First Name" maxlength="10" required pattern="[A-Za-z]+" title="Only letters are allowed">
+    <input type="text" id="name" name="name" placeholder="Name" required
+                 pattern="[A-Za-z]{1,50}" title="Only letters are allowed, max 50 characters">
 
-    <label for="surname">Last name</label>
-    <input type="text" name="surname" placeholder="Surname" maxlength="50" required pattern="[A-Za-z]+" title="Only letters are allowed">
+    <label for="surname">Last Name</label>
+          <input type="text" id="surname" name="surname" placeholder="Last Name" required
+                 pattern="[A-Za-z]{1,50}" title="Only letters are allowed, max 50 characters">
 
-    <label for="driverID">DriverID</label>
-    <input type="text" name="driverID" placeholder="123456" maxlength="10" required pattern="^[0-9]{1,10}$" title="Only digits are allowed, max 10 digits">
-
-    <label for="phone">Phone Number</label>
-    <input type="tel" name="phoneNumber" placeholder="(XXX) XXX-XXXX" maxlength="14" required pattern="^\(\d{3}\) \d{3}-\d{4}$" title="Format: (XXX) XXX-XXXX">
-
+   <label for="driverID">Driver ID</label>
+<input type="text" id="driverID" name="driverID" placeholder="A123456" required pattern="[A-Za-z]{1}[0-9]{6}" title="Must follow the format: D111111 (one letter followed by 6 digits)">
+<label for="phone">Phone Number</label>
+<input type="tel" id="phone" name="phoneNumber" placeholder="1111111111"
+       required pattern="\d{10}"
+       title="Please enter exactly 10 digits (e.g., 1234567890)">
     <div class="error-message" id="errorMessage">${errorMessage}</div>
 
     <button type="submit" class="submit-btn">Submit</button>
@@ -209,19 +209,20 @@ body {
         display: block; /* Ensure it's visible initially */
     }
 </style>
-
-<script>
-    // JavaScript to hide error messages after 10 seconds
-    window.onload = function() {
-        const errorMessageElement = document.getElementById('errorMessage');
-        if (errorMessageElement.innerText) {
-            setTimeout(() => {
-                errorMessageElement.style.display = 'none';
-            }, 10000); // Hide after 10 seconds
+    <script>
+      function hideErrorMessage() {
+            const errorMessageElement = document.getElementById('errorMessage');
+            errorMessageElement.style.display = 'none';
         }
-    };
-</script>
 
+        const errorMessageElement = document.getElementById('errorMessage');
+
+        if (errorMessageElement.innerText) {
+            setTimeout(hideErrorMessage, 10000);
+        }
+    </script>
+</div>
+</center>
 
 
 </div>
