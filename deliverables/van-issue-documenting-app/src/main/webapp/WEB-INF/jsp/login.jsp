@@ -225,9 +225,5 @@ body {
 </center>
 
 
-</div>
-</center>
-
-
 </body>
 </html>
