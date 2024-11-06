@@ -54,4 +54,4 @@
 ![image](https://github.com/user-attachments/assets/2b9bf152-14d6-436d-ac74-d451bf0b5b22)
 
 ### UI Mockup
-![2nd UI Page](https://github.com/user-attachments/assets/69aa9aa1-852c-4c9f-8da6-b84123b5900a)
+![2nd UI Page](https://github.com/user-attachments/assets/f10dd7cb-56b8-4694-9310-21fae30e4175)
