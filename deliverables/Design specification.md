@@ -52,3 +52,6 @@
 ![image](https://github.com/user-attachments/assets/33409588-ec55-47ec-9e7d-451c3765f40d)
 ### Swim-lane Diagram
 ![image](https://github.com/user-attachments/assets/2b9bf152-14d6-436d-ac74-d451bf0b5b22)
+
+### UI Mockup
+![2nd UI Page](https://github.com/user-attachments/assets/69aa9aa1-852c-4c9f-8da6-b84123b5900a)
