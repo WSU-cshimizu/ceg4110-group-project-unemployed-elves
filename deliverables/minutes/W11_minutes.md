@@ -55,7 +55,7 @@ Week 11
   * Dipesh: Right click the page, click "inspect element", click the device tool bar, then select the different technology options to see how the web page will appear.
   * Greg: Thank you, this will help a lot.
   * Dipesh: No problem.
-* Sameer 
+* Sameer/Mariia conversation about SQL/MongoDB
 
 
 
