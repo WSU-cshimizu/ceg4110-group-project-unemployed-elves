@@ -55,3 +55,6 @@
 
 ### UI Mockup
 ![2nd UI Page](https://github.com/user-attachments/assets/f10dd7cb-56b8-4694-9310-21fae30e4175)
+
+### Custom HTML/CSS Error Styling
+![UI2_ErrorHandling](https://github.com/user-attachments/assets/8f531a60-e4a7-4eea-9181-9008376210bf)
