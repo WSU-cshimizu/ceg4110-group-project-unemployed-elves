@@ -57,4 +57,4 @@
 ![2nd UI Page](https://github.com/user-attachments/assets/f10dd7cb-56b8-4694-9310-21fae30e4175)
 
 ### Custom HTML/CSS Error Styling
-![UI2_ErrorHandling](https://github.com/user-attachments/assets/8f531a60-e4a7-4eea-9181-9008376210bf)
+![UI2_ErrorHandling](https://github.com/user-attachments/assets/7e5003f5-6865-48e0-ba3a-6d0ac0b94107)
