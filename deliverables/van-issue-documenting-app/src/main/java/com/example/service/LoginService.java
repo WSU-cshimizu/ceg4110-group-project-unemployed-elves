@@ -1,15 +1,23 @@
 package com.example.service;
 
+import com.example.model.User;
+import com.example.repository.UserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
 public class LoginService {
-//mock up method
-    public boolean validateUser(String name, String surname, String driverID, String phone) {
-        return name.equalsIgnoreCase("maria")
-                && surname.equalsIgnoreCase("loz")
-                && driverID.equalsIgnoreCase("A123456")
-                && phone.equals("1111111111") ;
-    }
 
+    @Autowired
+    private UserRepository userRepository;
+
+    public boolean validateUser(String name, String surname, String driverID, String phoneNumber) {
+        User user = userRepository.findById(driverID).orElse(null);
+        if (user != null && user.getFirstName().equalsIgnoreCase(name)
+                && user.getLastName().equalsIgnoreCase(surname)
+                && user.getPhoneNumber().equalsIgnoreCase(phoneNumber)) {
+            return true;
+        }
+        return false;
+    }
 }
