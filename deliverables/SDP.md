@@ -54,7 +54,7 @@ Sameer, Greg, Mariia, Dipesh
 
 ---
 ## Timeline
-![updated_timeline](https://github.com/user-attachments/assets/888356c6-1d18-4c04-8b5c-fad0ad697104)
+![timeline](https://github.com/user-attachments/assets/8ebdbd52-4d05-4937-a0b8-6896fc64526b)
 
 ### Clarifications
  - Dates on the timeline Gantt chart indicate the start of the week. It is assumed that the deadline will be 5 pm on Fridays of the same week.
@@ -62,12 +62,14 @@ Sameer, Greg, Mariia, Dipesh
 
 ### Timeline Updates
 #### New Updates
+ - Changed Requirement Specifications due date to 12/2 from 11/22
+ - Changed Design Specifications due date to 12/2 from 11/22
+ - Reasoning: The presentation doesn't need two weeks to complete and we can still work on the functionality of the project.
+#### Old Updates
  - Almost completely redid timeline before finalization at 5 pm Friday 10/4/2024 to make it more realistic and up to date
  - Made separate section for the 5 basic item due dates, then separated the implementation timeline details into a different section
  - Increased minumum viable requirements due date to 10/11
  - Modified implementation details
-
-#### Old Updates
  - Changed Requirement Specifications due date to 10/4
  - Changed MVS due date to 10/18
  - Changed Design Specifications due date to 10/18
