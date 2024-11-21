@@ -3,10 +3,23 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 140vh; */
     background-color: #080B0E;
     margin: 0;
     padding: 0;
+
+    overflow: auto; /* Enable scrolling */
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #333333; 
+}
+
+
+
+
+
+body::-webkit-scrollbar {
+    width: 15px; 
 }
 
 .container {
@@ -48,6 +61,10 @@ textarea {
 
 .form-group {
     margin-bottom: 15px;
+}
+
+.form-group::-webkit-scrollbar {
+    width: 50px;
 }
 
 /* text above input boxes*/
