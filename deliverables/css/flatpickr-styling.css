@@ -1,0 +1,125 @@
+/* Customizing the calendar's background color and text color */
+.flatpickr-calendar {
+    background-color: black;
+    color: #fff;
+    }
+    
+    .flatpickr-weekday {
+        color:white !important;
+        background-color: black !important;
+    }
+    
+    
+    /* Styling the year input element */
+    .flatpickr-calendar .flatpickr-current-month  {
+    background-color: black !important;
+    color: white !important;
+    }
+    
+    .numInputWrapper {
+        background-color: black; /* Set the background color to black */
+        color: white; /* Set text color to black */
+    }
+    
+    /* Make the arrows themselves white */
+    .arrowUp, .arrowDown {
+        width: 20px; /* Set the size of the arrows */
+        height: 20px;
+        display: inline-block;
+        background-color: transparent; /* Ensure the background is transparent */
+        border: 2px solid white; /* Set the border to white for visibility */
+        color: white; /* Ensure the text color is white */
+    }
+    
+    /* Use pseudo-element for arrows if they are added with content */
+    .arrowUp::before, .arrowDown::before {
+        content: ''; /* Add empty content if arrows are pseudo-elements */
+        width: 100%;
+        height: 100%;
+        display: block;
+        background-color: white; /* Set arrow color */
+    }
+    
+    /* Hover effects for arrows */
+    .numInputWrapper:hover .arrowUp,
+    .numInputWrapper:hover .arrowDown {
+        background-color: white !important; /* Make background white on hover */
+        color: black !important; /* Text inside (if any) becomes black */
+        border-color: white !important; /* Ensure the border stays white */
+    }
+    
+    .flatpickr-prev-month svg {
+        stroke: white;
+    }
+    
+    .flatpickr-prev-month svg:hover {
+        stroke: #ff9900;
+    }
+    
+    .flatpickr-next-month svg {
+        stroke: white;
+    }
+    
+    .flatpickr-next-month svg:hover {
+        stroke: #ff9900;
+    }
+    
+    
+    /* 1. Dropdown mode (when using monthSelectorType: 'dropdown') */
+    .flatpickr-monthDropdown-months {
+    background-color: black !important;
+    color: white !important;
+    }
+    
+    .flatpickr-day.prevMonthDay  {
+        color: #3d3d3d !important;
+    }
+    
+    .flatpickr-day.nextMonthDay {
+        color: #3d3d3d !important;
+    }
+    
+    .flatpickr-day {
+        color: white !important;
+    }
+    
+    .flatpickr-day.prevMonthDay:hover {
+        border-color: #8d8d8d;
+        background-color: #8d8d8d;
+    }
+    
+    .flatpickr-day.nextMonthDay:hover {
+        border-color: #8d8d8d;
+        background-color: #8d8d8d;
+    }
+    
+    .flatpickr-day:hover {
+        border-color: #555555;
+        background-color: #555555;
+    }
+    
+    .flatpickr-day.selected {
+        border-color: #ff9900 !important;
+        background-color: #ff9900 !important;
+        color: #fff !important;
+    }
+    
+    .flatpickr-time .numInputWrapper input {
+        color: white;
+    }
+    
+    .flatpickr-time .numInputWrapper input:hover {
+        background-color: #3d3d3d;
+    }
+    
+    .flatpickr-time .flatpickr-time-separator {
+        color: white;
+    }
+    
+    .flatpickr-time .flatpickr-am-pm {
+        color: white;
+    }
+    
+    .flatpickr-time .flatpickr-am-pm:hover {
+        background-color: #3d3d3d;
+    }

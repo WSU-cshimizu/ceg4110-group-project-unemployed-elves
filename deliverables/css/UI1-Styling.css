@@ -1,0 +1,143 @@
+/* General Styles for Desktop */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #080B0E;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px; /* Adjusted width */
+    width: 100%;
+    background-color: #131921;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
+    margin: 50px auto;
+    padding: 20px;
+    /* margin: 70px; */
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 28px; 
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.authForm label {
+    color:white;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+
+
+.authForm input {
+    box-sizing: border-box;
+    color:white;
+    background-color:black;
+    border: 2px solid white;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+
+    margin-bottom: 20px;
+}
+
+.authForm input:placeholder {
+    opacity: 0.7;
+}
+
+.authForm input:focus {
+    border: 2px solid #ff9900;
+    outline: none;
+}
+
+
+
+
+
+
+
+.submit-btn {
+    color: black;
+    background-color: #FCA828;
+    padding: 12px;
+    width: 50%;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto; /* Center-align with auto margins */
+    border: none;
+}
+
+.submit-btn:hover {
+    background-color: #FFD089;
+}
+
+
+
+/* Media Queries */
+
+/* Tablet Mode */
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 15px;
+        margin: 20px;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    input[type="text"], input[type="tel"], input[type="datetime-local"], textarea, select {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .submit-btn {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+/* Mobile Mode */
+@media (max-width: 480px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    input[type="text"], input[type="tel"], input[type="datetime-local"], textarea, select {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    .submit-btn {
+        font-size: 12px;
+        padding: 6px;
+    }
+}
