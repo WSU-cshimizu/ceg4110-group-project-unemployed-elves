@@ -4,26 +4,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Van Issue User Authentication</title>
-  <link rel="stylesheet" href="../css/UI1-Styling.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="../css/UI_Styling.css">
+  <!-- <script src="../javascript/UI2.js"></script> -->
+  <script src="../javascript/UI1.js"></script>
 </head>
 <body>
 
   <div class="container">
     <h2>Van Issue User Authentication</h2>
     <form id="authForm" class="authForm">
-      <label for="name">First Name <span style="color:red">*</span></label>
-      <input type="text" id="name" placeholder="Enter first name here..." maxlength="10">
+      <div class="form-group">
+        <label for="name">First Name <span style="color:red">*</span></label>
+        <input type="text" id="name" placeholder="Enter first name here..." maxlength="35">
+      </div>
 
-      <label for="surname">Last Name <span style="color:red">*</span></label>
-      <input type="text" id="surname" placeholder="Enter last name here..." maxlength="50">
+      <div class="form-group">
+        <label for="surname">Last Name <span style="color:red">*</span></label>
+        <input type="text" id="surname" placeholder="Enter last name here..." maxlength="35">
+      </div>
 
-      <label for="driverID">Driver ID <span style="color:red">*</span></label>
-      <input type="text" id="driverID" placeholder="123456" maxlength="10" >
+      <div class="form-group">
+        <label for="driverID">Driver ID <span style="color:red">*</span></label>
+        <input type="text" id="driverID" placeholder="123456" maxlength="6" >
+      </div>
 
-      <label for="phone">Phone Number <span style="color:red">*</span></label>
-      <input type="tel" id="phone" placeholder="(XXX) XXX-XXXX" maxlength="10" >
-
-      <div class="error-message" id="errorMessage"></div>
+      <div class="form-group">
+        <label for="phone">Phone Number <span style="color:red">*</span></label>
+        <input type="tel" id="phone" placeholder="(XXX) XXX-XXXX" maxlength="10" >
+      </div>
 
       <button type="submit" class="submit-btn">Submit</button>
     </form>

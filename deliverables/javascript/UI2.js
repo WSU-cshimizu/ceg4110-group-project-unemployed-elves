@@ -19,7 +19,7 @@ function addErrorHandlingEventListener() {
 
         const formGroups = document.querySelectorAll(".form-group");
         for (let i = 0; i < formGroups.length; ++i) {
-            let hasErrorStyling = $(formGroups[i]).hasClass("errorStyling");
+            let hasErrorStyling = formGroups[i].classList.contains("errorStyling");
             let inputArray = formGroups[i].querySelectorAll("input, select, textarea");
 
             let inputType = inputArray[0].type;
@@ -27,7 +27,7 @@ function addErrorHandlingEventListener() {
             
             let selectionStr = getSelectionString(inputType);
             if (!hasErrorStyling && !isValid) {
-                $(formGroups[i]).addClass("errorStyling");
+                formGroups[i].classList.add("errorStyling");
                 appendErrorElements(inputType, inputArray, formGroups[i], selectionStr);
                 updateErrorBorderColoring(selectionStr, formGroups[i]);
             }

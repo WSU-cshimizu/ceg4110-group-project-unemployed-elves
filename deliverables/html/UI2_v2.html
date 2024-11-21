@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <!-- icon css styling -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
@@ -12,7 +11,7 @@
     <!-- <link rel="stylesheet" href="../css/flatpickr-styling.css"> -->
 
     <!-- this file's css styling -->
-    <link rel="stylesheet" href="../css/UI2-Styling.css">
+    <link rel="stylesheet" href="../css/UI_Styling.css">
     
     
     <!-- script for handling the flatpickrs custom datetime input field
@@ -24,7 +23,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Van Issue Form</title>
-    
 </head>
 <body>
 
@@ -39,14 +37,12 @@
             <div class="form-group" id="vinContainer">
                 <label for="vin">VIN <span style="color:red">*</span></label>
                 <subtext>17 characters (e.g., 4Y1SL65848Z411439)</subtext>
-                
                 <input type="text" id="vin" placeholder="Enter VIN here" minlength="17" maxlength="17">
             </div>
             
             <div class="form-group">
                 <label for="licensePlate">License Plate <span style="color:red">*</span></label>
                 <subtext>1-7 characters (e.g., 1ABC234)</subtext>
-                <!-- pattern="[A-Za-z0-9]{1,7}" -->
                 <input type="text" id="licensePlate" placeholder="Enter license plate here" minlength="1" maxlength="7">
             </div>
 
@@ -129,6 +125,5 @@
 
 </body>
 
-<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 <script src="../javascript/UI2.js"></script>
 </html>
