@@ -8,3 +8,4 @@
 
 ## Lessons Learned
 * If you understand your behavior, skills, and yourself (self-worth), nobody can shake or rock your boat. This is very important at work because it helps you deal with imposter syndrome.
+* During the interview, be prepared to decompose and explain general concepts using approaches from software engineering, such as divide and conquer for tackling large problems. You should also be able to articulate how you would solve a specific problem (shopping cart example).
