@@ -46,7 +46,7 @@ R.1.6. **Field Validations:**
       1.6.2.1 Must only accept numeric characters and one symbol at the start.  
       1.6.2.2 Must follow a specific format: one symbol 6 digits.  
       1.6.3. Phone Number field:       
-      1.6.3.1 Must follow a specific format ((XXX) XXX-XXXX).  
+      1.6.3.1 Must follow a specific format (XXXXXXXXXX).  
       1.6.3.2. Must only accept numeric input.  
 
 R.1.7. **Submission Rules:**  
