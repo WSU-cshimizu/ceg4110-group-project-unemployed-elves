@@ -43,7 +43,7 @@ R.1.6. **Field Validations:**
       1.6.1.1 Must only accept alphabetic characters.  
       1.6.1.2. Must not exceed 50 characters.  
       1.6.2. Driver ID field:        
-      1.6.2.1 Must only accept numeric characters.  
+      1.6.2.1 Must only accept numeric characters and one symbol at the start.  
       1.6.2.2 Must follow a specific format: one symbol 6 digits.  
       1.6.3. Phone Number field:       
       1.6.3.1 Must follow a specific format ((XXX) XXX-XXXX).  
