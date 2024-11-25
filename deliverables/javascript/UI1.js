@@ -85,9 +85,9 @@ function getErrorString(referenceElement) {
     if (referenceElement.id === "name" || referenceElement.id === "surname") {
         errorStr = 'Enter between 2 and 30 alphabetical characters';
     } else if (referenceElement.id === "driverID") {
-        errorStr = 'Enter 6 numerical digits: 123456';
+        errorStr = 'Enter a symbol and 6 numerical digits: A123456';
     } else if (referenceElement.id === "phone") {
-        errorStr = 'Enter 10 numerical digits: (123) 456 - 7890';
+        errorStr = 'Enter 10 numerical digits: 12345678';
     }
 
     return errorStr;
@@ -99,10 +99,10 @@ function determineIfValid(inputElement) {
     let regex;
 
     if (inputElement.id === "name" || inputElement.id === "surname") {
-        regex = /[A-Za-z]{1,35}/;
+        regex = /[A-Za-z]{2,50}/;
         isValid = regex.test(inputElement.value);
     } else if (inputElement.id === "driverID") {
-        regex = /\d{6}/;
+        regex = /^[A-Za-z]{1}[0-9]{6}$/;
         isValid = regex.test(inputElement.value)
     } else if (inputElement.id === "phone") {
         regex = /\d{10}/;

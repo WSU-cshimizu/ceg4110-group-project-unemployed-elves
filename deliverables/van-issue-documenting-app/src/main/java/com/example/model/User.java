@@ -1,15 +1,14 @@
 package com.example.model;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 @Entity
-@Table(name = "users")
+@Table(name = "users2")
 public class User {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     @Column(name = "driver_id")
     private String driverID;
 
@@ -22,10 +21,8 @@ public class User {
     @Column(name = "phone")
     private String phoneNumber;
 
-    // Default constructor
     public User() {}
 
-    // Constructor with fields
     public User(String driverID, String firstName, String lastName, String phoneNumber) {
         this.driverID = driverID;
         this.firstName = firstName;
@@ -33,7 +30,7 @@ public class User {
         this.phoneNumber = phoneNumber;
     }
 
-    // Getters and setters
+
     public String getDriverID() {
         return driverID;
     }
@@ -66,22 +63,4 @@ public class User {
         this.phoneNumber = phoneNumber;
     }
 
-    // toString, equals, and hashCode methods
-    @Override
-    public String toString() {
-        return "User [driverID=" + driverID + ", firstName=" + firstName + ", lastName=" + lastName + ", phoneNumber=" + phoneNumber + "]";
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        User user = (User) o;
-        return driverID != null ? driverID.equals(user.driverID) : user.driverID == null;
-    }
-
-    @Override
-    public int hashCode() {
-        return driverID != null ? driverID.hashCode() : 0;
-    }
 }

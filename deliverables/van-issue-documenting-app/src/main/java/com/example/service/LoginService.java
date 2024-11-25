@@ -12,7 +12,7 @@ public class LoginService {
     private UserRepository userRepository;
 
     public boolean validateUser(String name, String surname, String driverID, String phoneNumber) {
-        User user = userRepository.findById(driverID).orElse(null);
+        User user = userRepository.findByDriverID(driverID).orElse(null);
         if (user != null && user.getFirstName().equalsIgnoreCase(name)
                 && user.getLastName().equalsIgnoreCase(surname)
                 && user.getPhoneNumber().equalsIgnoreCase(phoneNumber)) {

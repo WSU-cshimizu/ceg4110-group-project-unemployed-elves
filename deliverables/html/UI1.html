@@ -14,29 +14,37 @@
 
   <div class="container">
     <h2>Van Issue User Authentication</h2>
-    <form id="authForm" class="authForm">
+    <form id="authForm" class="authForm" action="/login" method="post">
       <div class="form-group">
         <label for="name">First Name <span style="color:red">*</span></label>
-        <input type="text" id="name" placeholder="Enter first name here..." maxlength="35">
+        <input type="text" id="name" name="name" placeholder="Enter first name here..." maxlength="50"> 
       </div>
 
       <div class="form-group">
         <label for="surname">Last Name <span style="color:red">*</span></label>
-        <input type="text" id="surname" placeholder="Enter last name here..." maxlength="35">
+        <input type="text" id="surname" name = "surname" placeholder="Enter last name here..." maxlength="50">
       </div>
 
       <div class="form-group">
         <label for="driverID">Driver ID <span style="color:red">*</span></label>
-        <input type="text" id="driverID" placeholder="123456" maxlength="6" >
+        <input type="text" id="driverID" name="driverID" placeholder="A123456">
       </div>
 
       <div class="form-group">
         <label for="phone">Phone Number <span style="color:red">*</span></label>
-        <input type="tel" id="phone" placeholder="(XXX) XXX-XXXX" maxlength="10" >
+        <input type="tel" id="phone" name="phone" placeholder = "XXXXXXXXXX" >
       </div>
-
+      <div class="error-message" id="errorMessage">${errorMessage}</div>
       <button type="submit" class="submit-btn">Submit</button>
     </form>
+<style>
+    .error-message {
+        color: red;
+        margin: 10px 0;
+        display: block;
+    }
+</style>
   </div>
+
 </body>
 </html>

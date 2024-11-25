@@ -32,27 +32,27 @@
         </div>
         
         <h2>Van Issue Documentation Form</h2>
-        <form id="issueForm">
+        <form id="issueForm" action="/submit-van-issue" method="POST">
             <div class="form-group">
                 <label for="datetime">Date and Time <span style="color:red">*</span></label>
-                <input type="text" id="datetime">
+                <input type="text" id="datetime" name="datetime">
             </div>
 
             <div class="form-group" id="vinContainer">
                 <label for="vin">VIN <span style="color:red">*</span></label>
                 <subtext>17 characters (e.g., 4Y1SL65848Z411439)</subtext>
-                <input type="text" id="vin" placeholder="Enter VIN here" maxlength="17">
+                <input type="text" id="vin" name ="vin" placeholder="Enter VIN here" maxlength="17">
             </div>
             
             <div class="form-group">
                 <label for="licensePlate">License Plate <span style="color:red">*</span></label>
                 <subtext>1-7 characters (e.g., 1ABC234)</subtext>
-                <input type="text" id="licensePlate" placeholder="Enter license plate here" minlength="1" maxlength="7">
+                <input type="text" id="licensePlate" name ="licensePlate" placeholder="Enter license plate here" minlength="1" maxlength="7">
             </div>
 
             <div class="form-group">
                 <label for="licenseState">License State <span style="color:red">*</span></label>
-                <select id="licenseState">
+                <select id="licenseState" name="licenseState">
                     <option value="" disabled selected>Select your state</option>
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
@@ -120,7 +120,7 @@
 
             <div class="form-group">
                 <label for="issueDescription">Description <span style="color:red">*</span></label>
-                <textarea id="issueDescription" placeholder="Describe the van issue" maxlength="400"></textarea>
+                <textarea id="issueDescription" name = "issueDescription" placeholder="Describe the van issue" maxlength="400"></textarea>
             </div>
 
             <button type="submit" class="submit-btn" id="submitBtn">Submit</button>
