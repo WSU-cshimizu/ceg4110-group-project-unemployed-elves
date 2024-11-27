@@ -1,14 +1,13 @@
 # Design Specification
-
-## R.0. 
-### Description
-  * Responsiveness: The ui pages can appropriately resize components depending on the resolution of the accessing device while maintaining the same functionality.
-  * Web browser compatibility: The web application can interface with the major web browsers without creating broken layouts or impairing functionality.
-### General UML Diagram
-
+### Table of content 
+1. Data Flow Diagrams: Two different diagrams representing significant data flows on the first web page and the second, including the success page and interaction with it.
+2. Sequence Diagram: One diagram for the whole user - application interaction. Services represents some actions on the backend, and obviously repositories represents interaction between backend and database.
+3. NOT APPROPRIATE FOR OUR PROJECT: (Control) Flow Chart. Project is too simple for this.
+4. UML Diagram: One class diagram representing classes and the interactions between them. Dependency interactions in code are represented in more than half of the cases by the @Autowired annotation. That's why it's dependency interaction. 
+5. Use-case Models or Diagrams: NOT APPROPRIATE FOR OUR PROJECT FOR NOW. We don't have many users, only one.
+6. UI Mock-ups: Mockups for both pages and error handling for UI2.
 ---
 ## R.1. First Page: User Login Page
-### Description
 
 ### General Process
 
@@ -24,11 +23,9 @@
 ## R.2. Second Page: Van Issue Documenting Form
 ### Description
 
-### General Process
-
 ### Data-flow Diagram
 ![dfd-second-page](https://github.com/user-attachments/assets/d622bd1d-ac31-4b0e-92e6-e7c9bf67c199)
-### Swim-lane Diagram
+
 
 ### UI Mockup
 ![2nd UI Page](https://github.com/user-attachments/assets/f10dd7cb-56b8-4694-9310-21fae30e4175)
