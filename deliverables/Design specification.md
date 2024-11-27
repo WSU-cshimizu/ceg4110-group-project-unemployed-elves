@@ -8,7 +8,7 @@
    One diagram for the whole user-application interaction. Services represent actions on the backend, and repositories represent interactions between the backend and the database.
 
 3. **UML Diagram (General)**  
-   One class diagram representing classes and the interactions between them. Dependency interactions in code are represented in more than half of the cases by the `@Autowired` annotation. Therefore, it's a dependency interaction. Red squares represents private access modifiers, green circles - public. Big Int in DB - Long, Varchar - String.
+   One class diagram representing classes and the interactions between them. Dependency interactions in code are represented in more than half of the cases by the `@Autowired` annotation. Therefore, it's a dependency interaction. Red squares represents private access modifiers, green circles - public. Big Int in DB - Long, Varchar - String. VanIssue model depends on User model because it's required from it driverId.
 
 4. **UI Mock-ups (R.1, R.2)**  
    Mockups for both pages and error handling for UI2.
