@@ -7,16 +7,13 @@
 ### General UML Diagram
 
 ---
-## R.1. First Page: User Authentication
+## R.1. First Page: User Login Page
 ### Description
-* The first UI page is a user interface that facilitates authentication attempts by providing text prompts for the user to enter in their account information.
 
 ### General Process
 
 ### Data-flow Diagram
-![image](https://github.com/user-attachments/assets/4323edb5-87c5-4ca3-8ecf-4dba489a6936)
-### Swim-lane Diagram
-![image](https://github.com/user-attachments/assets/4c3b5288-b236-4799-a497-2b72cdf2eb2c)
+![dfd_first_page](https://github.com/user-attachments/assets/fa87c544-bd81-42fe-a176-a32255a6cdc8)
  
 ### UI Mockup
 * The UI needs to have four text input components and a submission button.
