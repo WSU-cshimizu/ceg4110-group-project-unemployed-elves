@@ -23,14 +23,12 @@
 ---
 ## R.2. Second Page: Van Issue Documenting Form
 ### Description
-* The second UI page is a data form where the user identifies the van used and any potential issues that need addressing. These forms are stored onto a database to keep a record needed to ensure safety and accountability for both the employees and managers.
 
 ### General Process
 
 ### Data-flow Diagram
-![image](https://github.com/user-attachments/assets/33409588-ec55-47ec-9e7d-451c3765f40d)
+![dfd-second-page](https://github.com/user-attachments/assets/d622bd1d-ac31-4b0e-92e6-e7c9bf67c199)
 ### Swim-lane Diagram
-![image](https://github.com/user-attachments/assets/2b9bf152-14d6-436d-ac74-d451bf0b5b22)
 
 ### UI Mockup
 ![2nd UI Page](https://github.com/user-attachments/assets/f10dd7cb-56b8-4694-9310-21fae30e4175)
