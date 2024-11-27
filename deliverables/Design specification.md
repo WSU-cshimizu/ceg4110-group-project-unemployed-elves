@@ -25,8 +25,6 @@
 ![dfd_first](https://github.com/user-attachments/assets/558840c1-6c09-4b8a-b456-359e1506116f)
 
 ### UI Mockup
-* The UI needs to have four text input components and a submission button.
-* It's recommended to use Amazon-based color schemes to match the theme of the application.
 ![UI_1_Wireframe](https://github.com/user-attachments/assets/a2a99a94-267e-41e7-8d73-b72ce78e07ad)
 ---
 ## R.2. Second Page: Van Issue Documenting Form
