@@ -13,7 +13,8 @@
 ### General Process
 
 ### Data-flow Diagram
-![dfd_first_page](https://github.com/user-attachments/assets/fa87c544-bd81-42fe-a176-a32255a6cdc8)
+![dfd_first](https://github.com/user-attachments/assets/558840c1-6c09-4b8a-b456-359e1506116f)
+
  
 ### UI Mockup
 * The UI needs to have four text input components and a submission button.
