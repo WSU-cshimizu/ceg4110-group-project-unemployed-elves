@@ -14,12 +14,11 @@
    Mockups for both pages and error handling for UI2.
 ---
 ## General 
+### Sequence Diagram: 
+![sequence_diagram](https://github.com/user-attachments/assets/ea6d54c9-aacc-47c9-9f86-6ccaa03b5738)
 
 ### Class Diagram: 
 ![class_diagram](https://github.com/user-attachments/assets/efc7151e-892a-40e6-94a3-6ce2c3ced4e0)
-
-### Sequence Diagram: 
-![sequence_diagram](https://github.com/user-attachments/assets/ea6d54c9-aacc-47c9-9f86-6ccaa03b5738)
 
 ## R.1. First Page: User Login Page
 
