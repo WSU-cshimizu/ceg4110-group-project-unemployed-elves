@@ -1,13 +1,14 @@
 # Design Specification
 ### Table of content 
-1.  Data Flow Diagrams (R.1, R.2): Two different diagrams representing  data flows on the first web page and the second, including the success page and interaction with it.
-2.  Sequence Diagram (General): One diagram for the whole user - application interaction. Services represents some actions on the backend, and obviously repositories represents interaction between backend and database.
+__ 1. __   Data Flow Diagrams (R.1, R.2): Two different diagrams representing  data flows on the first web page and the second, including the success page and interaction with it.
+__ 2. __  Sequence Diagram (General): One diagram for the whole user - application interaction. Services represents some actions on the backend, and obviously repositories represents interaction between backend and database.
 3. NOT APPROPRIATE FOR OUR PROJECT: (Control) Flow Chart. Project is too simple for this.
 4. UML Diagram (General) : One class diagram representing classes and the interactions between them. Dependency interactions in code are represented in more than half of the cases by the @Autowired annotation. That's why it's dependency interaction. 
 5. Use-case Models or Diagrams: NOT APPROPRIATE FOR OUR PROJECT FOR NOW. We don't have many users, only one.
 6. UI Mock-ups (R.1, R.2): Mockups for both pages and error handling for UI2.
 ---
 ## General 
+
 
 ### Sequence Diagram: 
 ![sequence_diagram](https://github.com/user-attachments/assets/ea6d54c9-aacc-47c9-9f86-6ccaa03b5738)
