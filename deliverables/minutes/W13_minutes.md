@@ -81,4 +81,5 @@ datetime element so I still need to work on that.
 ### Signatures
 After the notes and action items have been pushed, each person should take a time to review them. If everything is agreeable, push a single commit with your name as a signature. 
 * Greg Terrell
+* Mariia Lozovatska
 
