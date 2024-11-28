@@ -52,15 +52,6 @@ public class VanIssue {
         this.driverID = driverID;
     }
 
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
     public LocalDateTime getDatetime() {
         return datetime;
     }

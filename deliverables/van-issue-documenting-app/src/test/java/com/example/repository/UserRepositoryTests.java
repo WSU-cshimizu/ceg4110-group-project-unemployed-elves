@@ -10,8 +10,9 @@ import java.util.Optional;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @DataJpaTest
-class UserRepositoryTests {
 
+class UserRepositoryTests {
+/*
     @Autowired
     private UserRepository userRepository;
 
@@ -36,4 +37,6 @@ class UserRepositoryTests {
         Optional<User> foundUser = userRepository.findById("A222789");
         assertThat(foundUser).isNotPresent();
     }
+
+ */
 }

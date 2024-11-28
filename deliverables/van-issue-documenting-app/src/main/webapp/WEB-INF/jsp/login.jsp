@@ -127,7 +127,7 @@
 
       <div class="error-message" id="errorMessage">${errorMessage}</div>
 
-      <button type="submit" class="submit-btn">Submit</button>
+      <button type="submit" class="submit-btn">Verify</button>
     </form>
    <script>
    document.addEventListener("DOMContentLoaded", () => {

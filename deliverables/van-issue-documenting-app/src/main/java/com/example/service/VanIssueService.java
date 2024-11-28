@@ -20,7 +20,5 @@ public class VanIssueService {
         }
     }
 
-    public VanIssue getLastVanIssue() {
-        return vanIssueRepository.findTopByOrderByDatetimeDesc();
-    }
+
 }

@@ -12,10 +12,10 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.Optional;
 
-//NEED TO BE REWRITTEN
+
 @ExtendWith(MockitoExtension.class)
 class LoginServiceTest {
-    /*
+
     @InjectMocks
     LoginService loginService;
     @Mock
@@ -33,51 +33,55 @@ class LoginServiceTest {
     }
 
     @Test
-    void validateUser_correctData(){
+    void validateUser_correctData() {
         String driverID = "A223344";
         String firstName = "Alex";
         String lastName = "Xu";
         String phoneNumber = "6134442233";
-        Mockito.when(userRepository.findById(Long.valueOf(driverID))).thenReturn(Optional.of(mockUser));
+        Mockito.when(userRepository.findByDriverID(driverID)).thenReturn(Optional.of(mockUser));
         Assertions.assertTrue(loginService.validateUser(firstName, lastName, driverID, phoneNumber));
     }
+
     @Test
-    void validateUser_incorrectLastName(){
+    void validateUser_incorrectLastName() {
         String driverID = "A223344";
         String firstName = "Alex";
         String lastName = "Ux";
         String phoneNumber = "6134442233";
-        Mockito.when(userRepository.findById(Long.valueOf(driverID))).thenReturn(Optional.of(mockUser));
-        Assertions.assertFalse(loginService.validateUser(firstName, lastName, driverID, phoneNumber) );
+        Mockito.when(userRepository.findByDriverID(driverID)).thenReturn(Optional.of(mockUser));
+        Assertions.assertFalse(loginService.validateUser(firstName, lastName, driverID, phoneNumber));
     }
+
     @Test
-    void validateUser_incorrectPhoneNumber(){
+    void validateUser_incorrectPhoneNumber() {
         String driverID = "A223344";
         String firstName = "Alex";
         String lastName = "Xu";
         String phoneNumber = "1644442233";
-        Mockito.when(userRepository.findById(Long.valueOf(driverID))).thenReturn(Optional.of(mockUser));
-        Assertions.assertFalse(loginService.validateUser(firstName, lastName, driverID, phoneNumber) );
-    }
-    @Test
-    void validateUser_incorrectDriverID(){
-        String driverID = "B223344";
-        String firstName = "Alex";
-        String lastName = "Xu";
-        String phoneNumber = "6144442233";
-        Mockito.when(userRepository.findById(Long.valueOf(driverID))).thenReturn(Optional.of(mockUser));
-        Assertions.assertFalse(loginService.validateUser(firstName, lastName, driverID, phoneNumber) );
+        Mockito.when(userRepository.findByDriverID(driverID)).thenReturn(Optional.of(mockUser));
+        Assertions.assertFalse(loginService.validateUser(firstName, lastName, driverID, phoneNumber));
     }
 
     @Test
-    void validateUser_caseInsensitivity(){
+    void validateUser_incorrectDriverID() {
+        String driverID = "B223344";
+        String firstName = "Alex";
+        String lastName = "Xu";
+        String phoneNumber = "6134442233";
+        Mockito.when(userRepository.findByDriverID(driverID)).thenReturn(Optional.empty());
+        Assertions.assertFalse(loginService.validateUser(firstName, lastName, driverID, phoneNumber));
+    }
+
+    @Test
+    void validateUser_caseInsensitivity() {
         // Precondition: We check everything except driver ID. DriverID is always in UpperCase.
-        // in integration testing it will be resolved because columns collision are case insencitive.
+        // in integration testing it will be resolved because columns
         String driverID = "A223344";
         String firstName = "alEx";
         String lastName = "xu";
         String phoneNumber = "6134442233";
-        Mockito.when(userRepository.findById(Long.valueOf(driverID))).thenReturn(Optional.of(mockUser));
+        Mockito.when(userRepository.findByDriverID(driverID)).thenReturn(Optional.of(mockUser));
         Assertions.assertTrue(loginService.validateUser(firstName, lastName, driverID, phoneNumber));
-    } */
+    }
+
 }

@@ -23,14 +23,6 @@ public class User {
 
     public User() {}
 
-    public User(String driverID, String firstName, String lastName, String phoneNumber) {
-        this.driverID = driverID;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.phoneNumber = phoneNumber;
-    }
-
-
     public String getDriverID() {
         return driverID;
     }
