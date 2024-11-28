@@ -4,14 +4,14 @@
 * We communicated pretty well with each other by creating a discord server and leaving messages whenever we would not be attending class or if we needed too
 coordinate outside of class.
 * We divided the tasks effectively based on individual strengths, which helped us complete the project more efficiently.
-* item
-* item
+* Even though we changed our project perspective multiple times, we managed to stay organized and complete it on time.
+* 
 
 ## What could have been better in the group...
 * We committed to the first project idea thought up instead of brainstorming different options and then making a weighted decision. I think next time
 it would be helpful to evaluate our options prior to making a final move.
 * While we accomplished our tasks, creating a more detailed plan at the beginning of the project could have made our workflow smoother and more efficient.
-* item
+* It was hard to understand what and when everyone should do things, even though we had considered some deadlines, because we didn’t assign a team lead who actually had the authority to delegate tasks and give directions.
 * item
 
 ## What went well in the class...
@@ -21,13 +21,13 @@ once I have more time. This means incorporating SOLID design, modeling, user sto
 * One thing that went really well in the class was the guest lecture where we learned about real-world business applications.
 The models and strategies they shared, such as project management workflows, team collaboration techniques, and problem-solving approaches,
 were directly relatable to the concepts we studied in class.
-* item
+* 
 * item
 
 ## What could have been better in the class...
 * It was a little poorly planned, specifically with the number of cancelled class days or days when the professor was out.
 * Some lectures could have been more interactive by including live examples, case studies, or group discussions to make the concepts easier to understand.
-* item
+* 
 * item
 
 ## Further Comments
@@ -38,3 +38,4 @@ were directly relatable to the concepts we studied in class.
 
 ## Signatures
 * Dipesh Chandra Jha
+* Mariia Lozovatska
