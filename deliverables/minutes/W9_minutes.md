@@ -84,3 +84,4 @@ After the notes and action items have been pushed, each person should take a tim
 * Greg
 * Sameer Baig
 * Dipesh Chandra Jha
+* Mariia Lozovatska
