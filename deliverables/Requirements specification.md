@@ -103,9 +103,9 @@ R.2.4. **Submission Rules: (Submit button)**
 ## R.3 Testing Requirements for User Login (First Page)
 
 R.3.1: When valid credentials are entered, the user shall be redirected to the next (van issue documenting) page.  
-R.3.2: An error message shall be displayed indicating that the credentials do not match the pre-loaded database when incorrect credentials are entered (e.g., incorrect driver ID or other invalid fields).
-R.3.3: The form shall display an appropriate title (error message) when an invalid first name (e.g., containing numbers) is entered, even if everything else is good.
-R.3.4: The form shall display an appropriate title (error message) when an invalid surname (e.g., containing numbers) is entered, even if everything else is good.
-R.3.5: The form shall display an appropriate title (error message) when an invalid driver ID (e.g., not exactly 1 symbol followed by 6 digits) is entered, even if everything else is good.
-R.3.6: The form shall display an appropriate error message when an invalid phone number (e.g., less than 10 digits) is entered.
-R.3.7: Ensure that the user validation is case-insensitive for first name, last name, and driver ID.
+R.3.2: An error message shall be displayed indicating that the credentials do not match the pre-loaded database when incorrect credentials are entered (e.g., incorrect driver ID or other invalid fields).  
+R.3.3: The form shall display an appropriate title (error message) when an invalid first name (e.g., containing numbers) is entered, even if everything else is good.  
+R.3.4: The form shall display an appropriate title (error message) when an invalid surname (e.g., containing numbers) is entered, even if everything else is good.  
+R.3.5: The form shall display an appropriate title (error message) when an invalid driver ID (e.g., not exactly 1 symbol followed by 6 digits) is entered, even if everything else is good.  
+R.3.6: The form shall display an appropriate error message when an invalid phone number (e.g., less than 10 digits) is entered.  
+R.3.7: Ensure that the user validation is case-insensitive for first name, last name, and driver ID.  
