@@ -2,19 +2,17 @@ package com.example.controller;
 
 import com.example.service.LoginService;
 import jakarta.servlet.http.HttpSession;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 
 @Controller
 public class LoginController {
 
     @Autowired
-    private LoginService service;
+    protected LoginService service;
 
    @GetMapping("/login")
     public String showLoginPage(ModelMap model) {
@@ -42,7 +40,7 @@ public class LoginController {
         model.put("driverID", driverID);
         model.put("phone", phoneNumber);
 
-        return "welcome";
+        return "redirect:/welcome";
     }
 
     @GetMapping("/logout")
