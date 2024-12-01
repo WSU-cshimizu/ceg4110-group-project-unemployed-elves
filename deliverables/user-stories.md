@@ -12,7 +12,7 @@ The project is a web application designed for Amazon delivery drivers to easily 
  * As an Amazon delivery driver, I want a "remember-me" feature that keeps me logged in unless otherwise specified,
 so I can avoid logging in repeatedly.
  * As an Amazon delivery driver, I want to quickly log in to the system using my ID, so I can access it without additional sign-up.
- * As an Amazon delivery driver, I want to include the exact date and time when I discovered the van issue, so my manager can see when it occurred.
+ * As an Amazon delivery driver, I want to document issues with vans that I use without handing notes written with pen and paper to my manager.
 
  ### Developer Stories
 * As a Frontend developer, I want to know which devices this product will be used on, so that I can determine if I need to implement responsive design features.
