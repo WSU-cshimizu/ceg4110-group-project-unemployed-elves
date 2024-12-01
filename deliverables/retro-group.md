@@ -31,3 +31,4 @@ were directly relatable to the concepts we studied in class.
 ## Signatures
 * Dipesh Chandra Jha
 * Mariia Lozovatska
+* Gregory Terrell
