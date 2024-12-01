@@ -107,5 +107,5 @@ R.3.2: An error message shall be displayed indicating that the credentials do no
 R.3.3: The form shall display an appropriate title (error message) when an invalid first name (e.g., containing numbers) is entered, even if everything else is good.  
 R.3.4: The form shall display an appropriate title (error message) when an invalid surname (e.g., containing numbers) is entered, even if everything else is good.  
 R.3.5: The form shall display an appropriate title (error message) when an invalid driver ID (e.g., not exactly 1 symbol followed by 6 digits) is entered, even if everything else is good.  
-R.3.6: The form shall display an appropriate error message when an invalid phone number (e.g., less than 10 digits) is entered.  
+R.3.6: The form shall display an appropriate title (error message)  when an invalid phone number (e.g., less than 10 digits) is entered.  
 R.3.7: Ensure that the user validation is case-insensitive.
