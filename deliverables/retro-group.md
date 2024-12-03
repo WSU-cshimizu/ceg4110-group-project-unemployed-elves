@@ -32,3 +32,4 @@ were directly relatable to the concepts we studied in class.
 * Dipesh Chandra Jha
 * Mariia Lozovatska
 * Gregory Terrell
+* Sameer Baig
