@@ -100,7 +100,7 @@ R.2.4. **Submission Rules: (Submit button)**
    2.4.1. The form shall not be submitted unless all required fields are valid.  
    2.4.2. After clicking on the submit button user shall see success page wit all information that user just wrote.  
    
-R.2.5  **Session Rules: **  
+R.2.5  **Session Rules:**  
    2.5.1. Record in the database shall contain driver_id from the first page to uniquely identify user.
 
 ## R.3 Testing Requirements for User Login (First Page)
