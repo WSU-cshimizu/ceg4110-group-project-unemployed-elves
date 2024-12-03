@@ -93,12 +93,14 @@ R.2.3. **Field Validations:**
      2.3.5.1. Shall not contain special characters, only letters and numbers.  
      2.3.5.2. Shall not be more than 1-7 character long.  
      2.3.5.3. Shall not be empty.  
-2.3.6. License State + dropdown  
+2.3.6. License State + dropdown
      2.3.6.1. Shall select a state from the dropdown menu.  
-     
+
 R.2.4. **Submission Rules: (Submit button)**  
    2.4.1. The form shall not be submitted unless all required fields are valid.  
    2.4.2. After clicking on the submit button user shall see success page wit all information that user just wrote.
+R.2.5  **Session Rules: **  
+   2.5.1. Record in the database shall contain driver_id from the first page to uniquely identify user.
 
 ## R.3 Testing Requirements for User Login (First Page)
 
